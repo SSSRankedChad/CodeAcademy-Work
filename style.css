@@ -2,27 +2,29 @@ body
 {
   text-align: center;
   background-image: url("https://www.animalspot.net/wp-content/uploads/2015/04/Beluga-Whale.jpg");
+  overflow: hidden;
 }
 * {
   font-family: Roboto, sans-serif;
 }
 h1 {
-  color: white;
-  weight: 20px;
+  color: rgba(64, 69, 138, 0.47)
+  font-size: 40px;
 }
 h3 {
   color: blue;
-  weight: 10px;
+  font-size: 20px;
 }
 #opener {
   margin: auto;
   padding: 10px 10px;
 }
 #extra {
+  margin: auto;
   padding: 20px top;
 }
-#ends {
-  color: red;
+#ends{
+  margin: auto;
   padding: 50px top;
 }
 #ends.a {
