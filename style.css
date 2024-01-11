@@ -8,15 +8,15 @@ body
   overflow: hidden;
 }
 h1 {
-  color: rgba(64, 69, 138, 0.47)
+  color: rgb(64, 69, 138);
   font-size: 30px;
 }
 h3 {
   color: blue;
-  font-size: 10px;
+  font-size: 20px;
 }
 li {
-  font-size: 5px;
+  font-size: 10px;
 }
 #opener {
   margin: auto;
