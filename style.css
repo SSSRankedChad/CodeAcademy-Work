@@ -2,6 +2,7 @@ body
 {
   text-align: center;
   background-image: url("https://www.animalspot.net/wp-content/uploads/2015/04/Beluga-Whale.jpg");
+  background-size: cover;
   overflow: scroll;
 }
 * {
@@ -28,5 +29,5 @@ h3 {
 #ends {
   color: red;
   margin: auto;
-  padding: 20px top;
+  padding: 50px top;
 }
