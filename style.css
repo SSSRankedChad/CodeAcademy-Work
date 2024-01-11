@@ -9,14 +9,9 @@ body
 }
 h1 {
   color: rgb(64, 69, 138);
-  font-size: 30px;
 }
 h3 {
   color: blue;
-  font-size: 20px;
-}
-li {
-  font-size: 10px;
 }
 #opener {
   margin: auto;
