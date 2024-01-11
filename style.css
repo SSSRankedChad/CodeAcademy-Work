@@ -25,3 +25,8 @@ h3 {
   border: solid black;
   padding: 20px top;
 }
+#ends {
+  color: red;
+  margin: auto;
+  padding: 20px top;
+}
