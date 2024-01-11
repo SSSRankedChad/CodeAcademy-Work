@@ -1,8 +1,6 @@
 body
 {
   background-image: url("https://www.animalspot.net/wp-content/uploads/2015/04/Beluga-Whale.jpg");
-  position: relative;
-  overflow: scroll;
   width: 50px;
   height: 100px;
 }
