@@ -5,6 +5,7 @@ body
 }
 * {
   font-family: system-ui;
+  text-align: center;
 }
 h1 {
   color: white;
@@ -14,4 +15,3 @@ h3 {
   color: blue;
   weight: 10px;
 }
-
