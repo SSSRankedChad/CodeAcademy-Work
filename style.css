@@ -1,7 +1,7 @@
 body
 {
   background-image: url("https://eskipaper.com/sea-13.html");
-  background-cover: cover;
+  background-size: cover;
   width: 50px;
   height: 100px;
 }
