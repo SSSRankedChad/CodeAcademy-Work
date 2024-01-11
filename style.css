@@ -2,5 +2,24 @@ body
 {
   background-image: url(https://eskipaper.com/sea-13.html);
   background-cover: cover;
-  
+  width: 50px;
+  height: 100px;
 }
+* {
+  font-family: system-ui;
+}
+h1 {
+  color: white;
+  weight: 20px;
+}
+h3 {
+  color: blue;
+  weight: 10px;
+}
+#extra {
+  margin = auto;
+  border = 1px solid black;
+  padding: 10px 10px;
+}
+
+
