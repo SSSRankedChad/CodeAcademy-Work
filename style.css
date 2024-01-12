@@ -7,8 +7,7 @@ body
   background-image: url("https://whalesunderwater.com/wp-content/uploads/2015/11/whales-underwater-darrenjew-whale-16.jpg");
   background-repeat: no-repat;
   background-attachment: fixed;
-  position: fixed;
-  overflow: hidden;
+  overflow: scroll;
 }
 h1 {
   color: rgb(64, 69, 138);
@@ -26,7 +25,7 @@ h3 {
 }
 #ends{
   margin: auto;
-  padding: 300px;
+  padding: 40px;
   background-color: rgba(64, 69, 138, 0.47);
-  background-size: 300px 10px;
+  background-size: 50px 10px;
 }
