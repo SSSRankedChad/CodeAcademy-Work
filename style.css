@@ -25,4 +25,5 @@ h3 {
   margin: auto;
   padding: 40px top;
   background-color: rgba(64, 69, 138, 0.47);
+  background-size: 300px 100px;
 }
