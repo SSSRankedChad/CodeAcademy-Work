@@ -5,6 +5,7 @@ body
   overflow: scroll;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   position: fixed; 
 }
