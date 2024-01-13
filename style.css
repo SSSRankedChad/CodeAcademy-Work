@@ -6,7 +6,7 @@ body
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: right;
+  text-align: center;
 }
 h1 {
   color: rgb(64, 69, 138);
@@ -40,7 +40,9 @@ li {
   font-size: 30px;
   font-family: 'PT Sans', serif;
   font-style: italic;
-  letter-spacing: 10px;
   background-color: rgba(64, 69, 138, 0.47);
   background-size: 5px 5px;
+}
+#ends.a {
+  letter-spacing: 20px
 }
