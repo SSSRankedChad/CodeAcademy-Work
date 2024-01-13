@@ -6,6 +6,7 @@ body
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  position: fixed; 
 }
 h1 {
   color: rgb(64, 69, 138);
