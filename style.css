@@ -16,10 +16,15 @@ h1 {
   font-family: Roboto, Times, san-serif;
   font-weight: bold;
 }
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
 h3 {
   color: rgba(46, 77, 145, 1);
-  font-family: Impact, Times, sans-serif;
+  font-family: Montserrat, serif;
   font-size: 50px;
+  font-style: cursive;
 }
 li {
   font-size: 30px;
