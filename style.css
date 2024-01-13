@@ -3,8 +3,7 @@ body
 {
   text-align: center;
   background-image: url("https://whalesunderwater.com/wp-content/uploads/2015/11/whales-underwater-darrenjew-whale-16.jpg");
-  background-repeat: no-repat;
-  background-attachment: fixed;
+  background-size: 500px;
   overflow: scroll;
 }
 h1 {
