@@ -1,6 +1,4 @@
-* {
-  font-family: Roboto, sans-serif;
-}
+
 body
 {
   text-align: center;
@@ -11,9 +9,21 @@ body
 }
 h1 {
   color: rgb(64, 69, 138);
+  padding: 20px 20px;
+  margin: auto;
+  background-color: midnightblue;
+  font-family: Roboto, Times, san-serif;
+  font-weight: bold;
 }
 h3 {
   color: blue;
+  font-family: Impact, Times, sans-serif;
+  font-size: 50px;
+}
+li {
+  font-size: 30px;
+  font-family: Courier, Times, san-serif;
+  color: white;
 }
 #opener {
   margin: auto;
@@ -26,6 +36,8 @@ h3 {
 #ends{
   margin: auto;
   padding: 40px;
+}
+#ends.a {
   background-color: rgba(64, 69, 138, 0.47);
   background-size: 10px 10px;
 }
