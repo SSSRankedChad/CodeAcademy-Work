@@ -21,7 +21,7 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  color: rgba(46, 77, 145, 1);
+  color: rgba(70, 77, 145, 1);
   font-family: Montserrat, serif;
   font-size: 50px;
   font-style: cursive;
@@ -29,7 +29,8 @@ h3 {
 li {
   font-size: 30px;
   font-family: Courier, Times, san-serif;
-  color: midnightblue;
+  color: white;
+  
 }
 #opener {
   margin: auto;
@@ -49,5 +50,5 @@ li {
   background-size: 5px 5px;
 }
 #ends.a {
-  letter-spacing: 40px
+  letter-spacing: 0.4em;
 }
