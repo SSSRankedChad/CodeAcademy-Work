@@ -42,7 +42,7 @@ li {
 }
 #ends{
   margin: auto;
-  padding: 40px;
+  padding: 40px top;
   font-size: 30px;
   font-family: 'PT Sans', serif;
   font-style: italic;
