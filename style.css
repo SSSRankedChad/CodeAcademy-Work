@@ -56,4 +56,6 @@ span {
   font-family: 'PT Sans', serif;
   color: midnightblue;
   background-color: rgba(0, 10, 60, 0.8);
+  width: 50%;
+  height: 100%;
 }
