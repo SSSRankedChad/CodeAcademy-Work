@@ -30,7 +30,10 @@ li {
   font-size: 18px;
   font-family: Courier, Times, san-serif;
   color: white;
-  
+}
+span {
+  font-weight: lighter;
+  font-style: italic;
 }
 #opener {
   margin: auto;
@@ -45,7 +48,6 @@ li {
   padding: 40px top;
   font-size: 30px;
   font-family: 'PT Sans', serif;
-  font-style: italic;
   color: rgba(64, 69, 138, 0.47);
 }
 #links {
@@ -53,4 +55,5 @@ li {
   font-style: italic;
   font-family: 'PT Sans', serif;
   color: midnightblue;
+  background-color: rgba(0, 10, 60, 0.8);
 }
