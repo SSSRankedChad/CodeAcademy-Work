@@ -11,7 +11,7 @@ body
 h1 {
   padding: 20px 20px;
   margin: auto;
-  color: rgba(46, 77, 192, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   font-family: Roboto, Times, san-serif;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@ h3 {
   font-style: cursive;
 }
 li {
-  font-size: 10px;
+  font-size: 18px;
   font-family: Courier, Times, san-serif;
   color: white;
   
@@ -48,7 +48,7 @@ li {
   color: rgba(64, 69, 138, 0.47);
 }
 #links {
-  letter-spacing: 0.4em;
+  word-spacing: 0.4em;
   font-style: italic;
   font-family: 'PT Sans', serif;
   color: midnightblue;
