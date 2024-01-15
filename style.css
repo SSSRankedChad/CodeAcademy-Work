@@ -64,28 +64,34 @@ span {
   width: 20%;
 }
 .twit img {
-  width: 80px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .gmail img {
-  width: 80px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .steam img {
-  width: 80px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .twit a {
   display: inline-block;
   border: 1px solid black;
+  padding-left: 5px:
+  padding-right: 5px:
 }
 .gmail a {
   display: inline-block;
   border: 1px solid black;
+  padding-left: 5px:
+  padding-right: 5px:
 }
 .steam a {
   display: inline-block;
   border: 1px solid black;
+  padding-left: 5px:
+  padding-right: 5px:
 }
 .twit a:hover, .gmail a:hover, .steam a:hover {
   background-color: midnightblue;
