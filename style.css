@@ -58,6 +58,21 @@ span {
   background-color: rgba(0, 10, 60, 0.8);
   width: 20%;
 }
+.twit img {
+  width: 80px;
+  padding: 5px;
+  height: 70px;
+}
+.gmail img {
+  width: 80px;
+  padding: 5px;
+  height: 70px;
+}
+.steam img {
+  width: 80px;
+  padding: 5px;
+  height: 70px;
+}
 .twit a {
   display: inline-block;
   border: 1px solid black
