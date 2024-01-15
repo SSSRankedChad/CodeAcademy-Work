@@ -73,17 +73,14 @@ span {
 .twit a {
   display: inline-block;
   border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 .gmail a {
   display: inline-block;
   border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 .steam a {
   display: inline-block;
   border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 .twit a:hover, .gmail a:hover, .steam a:hover {
   background-color: midnightblue;
