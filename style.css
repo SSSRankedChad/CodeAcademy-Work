@@ -58,3 +58,15 @@ span {
   background-color: rgba(0, 10, 60, 0.8);
   width: 20%;
 }
+.twit a {
+  display: inline-block;
+  border: 1px solid black
+}
+.gmail a {
+  display: inline-block;
+  border: 1px solid black;
+}
+.steam a {
+  display: inline-block;
+  border: 1px solid black;
+}
