@@ -70,3 +70,6 @@ span {
   display: inline-block;
   border: 1px solid black;
 }
+.twit a:hover, .gmail a:hover, .steam a:hover {
+  background-color: midnightblue;
+}
