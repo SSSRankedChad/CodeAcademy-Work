@@ -1,4 +1,9 @@
-
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0KExQ.woff2') format('woff2');
+}
 body
 {
   background-image: url("https://www.teahub.io/photos/full/49-498915_1920x1080-humpback-whale-wallpaper-blue-whale-wallpaper-hd.jpg");
