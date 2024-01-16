@@ -48,14 +48,14 @@ body {
   }
   #intro h1{
      font-family: 'Abril Fatface', 'Arial', sans-serif;
-     color: rgba(46, 152, 138, 1);
+     color: rgba(46, 188, 138, 1);
   }
 
-  #tab p {
+  .tab p {
   	font-family: 'Lato', serif;
   }
 
-  #tab h3 {
+  .tab h3 {
   	font-family: 'Abril Fatface', 'Arial', sans-serif;
   }
   th {
@@ -64,7 +64,7 @@ body {
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
-  #fam span {
+  .fam span {
   	font-family: 'Merriweather';
   	font-weight: 500px;
   }
@@ -78,7 +78,7 @@ body {
   .spacing span {
   	word-spacing: 1.2em;
   }
- .end h2 {
+  #end h1 {
    padding-top: 200px;
    color: white;
  }
