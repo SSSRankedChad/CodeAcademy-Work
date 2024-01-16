@@ -14,24 +14,24 @@ body
   background-position: center;
   text-align: center;
 }
-h1 {
+.opener h1 {
   padding: 20px 20px;
   margin: auto;
   color: rgba(0, 0, 0, 0.9);
   font-family: Roboto, Times, san-serif;
   font-weight: bold;
 }
-h2 {
+.extra h2 {
   font-size: 40px;
   font-weight: bold;
 }
-h3 {
+.extra h3 {
   color: rgba(70, 77, 145, 1);
   font-family: Montserrat, serif;
   font-size: 40px;
   font-style: cursive;
 }
-li {
+ .extra p{
   font-size: 18px;
   font-family: Courier, Times, san-serif;
   color: white;
