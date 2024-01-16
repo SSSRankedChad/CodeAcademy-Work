@@ -58,7 +58,7 @@ body {
   .tab h3 {
   	font-family: 'Abril Fatface', 'Arial', sans-serif;
   }
-  th {
+  #info th {
   	font-weight: bold;
   	font-family: 'Lato', serif;
   	background-color: rgba(46, 152, 168, 0.7);
