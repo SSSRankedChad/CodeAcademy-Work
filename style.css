@@ -58,20 +58,18 @@ span {
   color: rgba(0, 11, 164, 0.47);
   padding-bottom: 20px;
 }
-.twit img, .gmail img, .steam img {
+.twit img, .gmail img, .git img {
   width: 40px;
   height: 40px;
 }
-.twit a, .gmail a, .steam a {
+.twit a, .gmail a, .git a {
   display: inline-block;
   border: 1px solid black;
-  padding-left: 5px;
-  padding-right: 5px;
 }
-.twit a:hover, .gmail a:hover, .steam a:hover {
+.twit a:hover, .gmail a:hover, .git a:hover {
   cursor: pointer;
   background-color: skyblue;
 }
-.twit a:visited, .gmail a:visited, .steam a:visited {
+.twit a:visited, .gmail a:visited, .git a:visited {
   background-color: purple;
 }
