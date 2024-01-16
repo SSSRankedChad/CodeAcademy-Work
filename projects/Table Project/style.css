@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://www.starflix.co.uk/wp-content/uploads/2017/07/Starflis_blog-1.jpg");
+  background-image: url("https://blog.hubspot.com/hubfs/when-to-use-different-fonts.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body {
   	font-weight: 200px;
   }
   .style span {
-  	font-style: oblique 10deg;
+  	font-style: oblique 40deg;
   }
   .spacing span {
   	word-spacing: 1.2em;
