@@ -69,16 +69,16 @@ body {
   	font-weight: 500px;
   }
 
-  #word span {
+  .word span {
   	font-weight: 200px;
   }
-  #style span {
+  .style span {
   	font-style: oblique 40deg;
   }
-  #spacing span {
+  .spacing span {
   	word-spacing: 1.2em;
   }
- #end h2 {
+ .end h2 {
    padding-top: 200px;
    color: white;
  }
