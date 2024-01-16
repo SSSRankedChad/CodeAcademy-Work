@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://www.deviantart.com/fourstringwarrior/art/Anatomical-Alphabet-52259392");
+  background-image: url("https://businessmirror.com.ph/wp-content/uploads/2022/09/MARKETING-0926.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -7,34 +7,39 @@ body {
   text-align: center;
   }
 
+  @font-face {
+  	font-family: 'Lato';
+  	font-weight: 400px;
+  	font-style: normal;
+  	src: url('fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2') format('woff2');
+    src: url('fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff') format('woff');
+    src: url('fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.ttf') format('ttf');
+
+  }
 
   @font-face {
   	font-family: 'Abril Fatface';
   	font-weight: 500px;
   	font-style: italic;
-  	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
+  	src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
+    src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff') format('woff');
+    src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.ttf') format('ttf');
   }
 
   @font-face {
   	font-family: 'Merriweather';
   	font-weight: 400px;
   	font-style: normal;
-  	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
-  }
-  @font-face {
-    font-family: 'Courier';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.gstatic.com/l/font?kit=i7dKIFtyYSaNG9A_JrmedQ&skey=415f62b718dd1a36&v=v11') format('woff2');
+  	src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
+    src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff') format('woff');
+    src: url('fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.ttf') format('ttf');
   }
   table {
-    border: 1px solid seashell;
+    border: 1px solid black;
     background-color: rgba(46, 202, 168, 1);
-    padding-left: 40px;
-    padding-right: 40px;
   }
   td {
-  	font-family: serif;
+  	font-family: 'Lato', serif;
   	border: 1px solid black;
   }
   .intro h1{
@@ -43,20 +48,20 @@ body {
   }
 
   .tab p {
-  	font-family: serif;
+  	font-family: 'Lato', serif;
   }
 
   .tab h3 {
   	font-family: 'Abril Fatface', 'Arial', sans-serif;
   }
-  .info th {
+  th {
   	font-weight: bold;
   	font-family: 'Lato', serif;
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
   .fam span {
-  	font-family: 'Courier';
+  	font-family: 'Merriweather';
   	font-weight: 500px;
   }
 
@@ -67,7 +72,6 @@ body {
   	font-style: oblique 10deg;
   }
   .spacing span {
-  	word-spacing: 0.9em;
+  	word-spacing: 1.2em;
   }
- 
 
