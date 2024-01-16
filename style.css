@@ -70,8 +70,8 @@ span {
 .twit a, .gmail a, .steam a {
   display: inline-block;
   border: 1px solid black;
-  padding-left: 5px:
-  padding-right: 5px:
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .twit a:hover, .gmail a:hover, .steam a:hover {
   background-color: skyblue;
