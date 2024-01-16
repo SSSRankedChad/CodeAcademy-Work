@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://www.deviantart.com/fourstringwarrior/art/Anatomical-Alphabet-52259392");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  }
+
+
+  @font-face {
+  	font-family: 'Abril Fatface';
+  	font-weight: 500px;
+  	font-style: italic;
+  	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
+  }
+
+  @font-face {
+  	font-family: 'Merriweather';
+  	font-weight: 400px;
+  	font-style: normal;
+  	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Courier';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/l/font?kit=i7dKIFtyYSaNG9A_JrmedQ&skey=415f62b718dd1a36&v=v11') format('woff2');
+  }
+  table {
+    border: 1px solid seashell;
+    background-color: rgba(46, 202, 168, 1);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  td {
+  	font-family: serif;
+  	border: 1px solid black;
+  }
+  .intro h1{
+     font-family: 'Abril Fatface', 'Arial', sans-serif;
+     color: rgba(46, 152, 138, 1);
+  }
+
+  .tab p {
+  	font-family: serif;
+  }
+
+  .tab h3 {
+  	font-family: 'Abril Fatface', 'Arial', sans-serif;
+  }
+  .info th {
+  	font-weight: bold;
+  	font-family: 'Lato', serif;
+  	background-color: rgba(46, 152, 168, 0.7);
+  	border: 1px solid black;
+  }
+  .fam span {
+  	font-family: 'Courier';
+  	font-weight: 500px;
+  }
+
+  .word span {
+  	font-weight: 200px;
+  }
+  .style span {
+  	font-style: oblique 10deg;
+  }
+  .spacing span {
+  	word-spacing: 0.9em;
+  }
+ 
+
