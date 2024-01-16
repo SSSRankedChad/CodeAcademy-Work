@@ -74,5 +74,9 @@ span {
   padding-right: 5px;
 }
 .twit a:hover, .gmail a:hover, .steam a:hover {
+  cursor: pointer;
   background-color: skyblue;
+}
+.twit a:visited, .gmail a:visited, .steam a:visited {
+  background-color: purple;
 }
