@@ -55,14 +55,6 @@ span {
   font-family: 'PT Sans', serif;
   color: rgba(64, 69, 138, 0.47);
 }
-#links {
-  word-spacing: 0.4em;
-  font-style: italic;
-  font-family: 'PT Sans', serif;
-  color: midnightblue;
-  background-color: rgba(0, 10, 60, 0.8);
-  width: 20%;
-}
 .twit img, .gmail img, .steam img {
   width: 40px;
   height: 40px;
