@@ -78,4 +78,8 @@ body {
   .spacing span {
   	word-spacing: 1.2em;
   }
+ .end h2 {
+   padding-top: 200px;
+   color: midnightblue;
+ }
 
