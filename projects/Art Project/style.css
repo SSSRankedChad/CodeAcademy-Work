@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0KExQ.woff2') format('woff2');
+}
+body
+{
+  background-image: url("https://www.teahub.io/photos/full/49-498915_1920x1080-humpback-whale-wallpaper-blue-whale-wallpaper-hd.jpg");
+  overflow: scroll;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+h1 {
+  padding: 20px 20px;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto, Times, san-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h3 {
+  color: rgba(70, 77, 145, 1);
+  font-family: Montserrat, serif;
+  font-size: 40px;
+  font-style: cursive;
+}
+li {
+  font-size: 18px;
+  font-family: Courier, Times, san-serif;
+  color: white;
+}
+span {
+  font-weight: lighter;
+  font-style: italic;
+}
+#opener {
+  margin: auto;
+  padding: 10px 10px;
+}
+#extra {
+  margin: auto;
+  padding: 20px top;
+}
+#ends{
+  margin: auto;
+  padding: 40px top;
+  font-size: 30px;
+  font-family: 'PT Sans', serif;
+  color: rgba(64, 69, 138, 0.47);
+}
+#links {
+  word-spacing: 0.4em;
+  font-style: italic;
+  font-family: 'PT Sans', serif;
+  color: midnightblue;
+  background-color: rgba(0, 10, 60, 0.8);
+  width: 20%;
+}
+.twit img, .gmail img, .steam img {
+  width: 50%;
+  height: 50%;
+}
+.twit a, .gmail a, .steam a {
+  display: inline-block;
+  border: 1px solid black;
+  padding-left: 5px:
+  padding-right: 5px:
+}
+.twit a:hover, .gmail a:hover, .steam a:hover {
+  background-color: skyblue;
+}
