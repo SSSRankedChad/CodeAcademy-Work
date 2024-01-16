@@ -1,41 +1,61 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title> This Is My Story </title>
-    <link href= "style.css", rel="stylesheet">
-  </head>
-<body>
-  <div class id= "opener">
-  <h1> Hey there! Call me Whales,<span> The Magnificent!</span></h1>
-  </div> 
-  <div class id= "extra">
-  <h2> Why should you think I am magnificent?</h2>
-      <li> 
-        <h3>The first reason is: </h3>
-        <p> I am a lovely man and try my hardest to be.</p> 
-      </li>
-      <li> 
-        <h3> The second reason is: </h3>
-        <p> I am overweight for sure, but it is all how you use that weight!</p>
-      </li>
-      <li> 
-        <h3> And lastly the final reason is: </h3>
-        <p> I am a open book. Ask me anything, I have all the answers to your questions! </p>
-      </li>
-  </div>
-  <div class id= "ends">
-    <footer>
-      <p> You can find more about me here!</p>
-      <button class = "twit">
-        <a href=""> <img src= https://www.livemint.com/lm-img/img/2023/08/28/600x338/Screenshot_2023-08-28_173949_1693224673547_1693224678910.png> </a>
-      </button>
-      <button class = "gmail"> 
-        <a href=""> <img src= "https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png"> </a> 
-      </button> 
-      <button class = "steam"> 
-        <a href=""> <img src= "https://logodix.com/logo/881398.png"></a>
-      </button> 
-     </div> 
-    </footer>
-  </div>
- </body>
- </html>
+<link rel="stylesheet" type="text/css" href="table.css">
+<head>
+   <div class id="intro">
+    <title> Learning to use fonts in CSS </title>
+     <h1> CSS Cheat Sheet For Fonts </h1>
+   </div>
+   <body>
+     <div class id= "tab">
+      <p> Fonts are a crucial part of learning CSS and how to style your own websites! There is a lot to go over and point of this helpful table is to help those new to CSS to help understand fonts better and how to make your own website look stylish and cool! </p>
+      <h3> This is all for you to know: </h3>
+     </div>
+     <div class id= "info">
+      <table>
+         <thead>
+         <tr>
+            <th> Selector </th>
+            <th scope = "col"> Description </th>
+            <th scope = "col"> Output </th>
+         </tr>
+         </thead>
+         <tbody>
+         <tr>
+           <div class id= "fam">
+            <td> font-family </td>
+            <td> Specifies a specific list of fonts of either 1 or 2 for the particular element. Remember the first font selected will take predence over others. </td>
+            <td> font-family: 'Merriweather', 'Arial', serif; (Father vs <span> Father </span>) </td>
+          </div>
+         </tr>
+           <div class id= "word">
+         <tr>
+            <td> font-weight </td>
+            <td> Changes the appearance of the font, whether it is lighter or heavier in thickness. </td>
+            <td> font-weight: #px; (font-weight of 200: <span> Word </span>) </td>
+         </tr>
+           <div class id= "style">
+         <tr>
+            <td> font-style </td>
+            <td> Changes the style of a font to either italics or obliqued (meaning font is slightly angled, must put in degree) </td>
+            <td> font-style: italics/oblique #deg; (<span> Obliqued 10 degrees </span> ) </td>
+         </tr>
+         <div class id = "spacing">
+          <tr>   
+            <td> letter-spacing/word-spacing </td>
+            <td> Adds spacing between either letters of a word or between words within in a paragraph/sentence. </td>
+            <td> letter/word-spacing: #em (<span> This is a sentence with word spacing <span>) </td>
+         </tr>
+         </div>
+      </div>
+      </tbody>
+      </table>
+          <footer> 
+            <div class id = "end">
+              <h2> Really hope this guide has helped and good luck on your journey! </h2>
+           </div>
+        </footer>
+     </div>
+   </body>
+</head>
+</html>
