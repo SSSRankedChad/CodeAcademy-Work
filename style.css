@@ -64,8 +64,8 @@ span {
   width: 20%;
 }
 .twit img, .gmail img, .steam img {
-  width: 50%;
-  height: 50%;
+  width: 40px;
+  height: 40px;
 }
 .twit a, .gmail a, .steam a {
   display: inline-block;
