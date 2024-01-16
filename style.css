@@ -30,11 +30,13 @@ body
   font-family: Montserrat, serif;
   font-size: 40px;
   font-style: cursive;
+  padding-bottom: 20px;
 }
  .extra p{
   font-size: 18px;
   font-family: Courier, Times, san-serif;
   color: white;
+  padding-bottom: 20px;
 }
 span {
   font-weight: lighter;
@@ -54,6 +56,7 @@ span {
   font-size: 30px;
   font-family: 'PT Sans', serif;
   color: rgba(64, 69, 138, 0.47);
+  padding-bottom: 20px;
 }
 .twit img, .gmail img, .steam img {
   width: 40px;
