@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   src: url('https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0KExQ.woff2') format('woff2');
 }
 body
@@ -26,10 +26,10 @@ body
   font-weight: bold;
 }
 .extra h3 {
-  color: rgba(70, 77, 145, 1);
+  color: rgba(0, 0, 0, 0.9);
   font-family: Montserrat, serif;
   font-size: 40px;
-  font-style: cursive;
+  font-style: italic;
   padding-bottom: 20px;
 }
  .extra p{
