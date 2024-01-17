@@ -35,7 +35,8 @@ body
  .extra p{
   font-size: 18px;
   font-family: Courier, Times, san-serif;
-  color: white;
+  font-weight: bold;
+  color: black;
   padding-bottom: 20px;
 }
 span {
