@@ -70,10 +70,10 @@ body {
   }
 
   .word span {
-  	font-weight: 500px;
+  	font-weight: 700px;
   }
   .style span {
-  	font-style: oblique 40deg;
+  	font-style: oblique 20deg;
   }
   .spacing span {
   	word-spacing: 1.2em;
