@@ -46,39 +46,39 @@ body {
   	font-family: 'Lato', serif;
   	border: 1px solid black;
   }
-  #intro h1{
+  h1 #intro{
      font-family: 'Abril Fatface', 'Arial', sans-serif;
      color: rgba(46, 188, 138, 1);
   }
 
-  .tab p {
+  p .tab {
   	font-family: 'Lato', serif;
   }
 
-  .tab h3 {
+  h3 .tab {
   	font-family: 'Abril Fatface', 'Arial', sans-serif;
   }
-  #info th {
+  th #info {
   	font-weight: bold;
   	font-family: 'Lato', serif;
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
-  .fam span {
+  span .fam {
   	font-family: 'Merriweather';
   	font-weight: 500px;
   }
 
-  .word span {
+  span .word {
   	font-weight: 700px;
   }
-  .style span {
+  span .style {
   	font-style: oblique 20deg;
   }
-  .spacing span {
+  span .spacing {
   	word-spacing: 1.2em;
   }
-  #end h1 {
+  h1 #ends {
    padding-top: 200px;
    color: white;
  }
