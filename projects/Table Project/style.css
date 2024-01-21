@@ -51,13 +51,13 @@ body {
      color: rgba(46, 188, 138, 1);
   }
 
-  .tab p {
+  p.tab{
   	font-family: 'Lato', serif;
     font-style: italic;
     font-weight: 500px;
   }
 
-  .tab h3 {
+  h3.tab{
   	font-family: 'Abril Fatface', 'Arial', sans-serif;
   }
   #info th {
@@ -66,21 +66,21 @@ body {
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
-  .fam span{
+  span.fam{
   	font-family: 'Roboto';
   	font-weight: 500px;
   }
 
-  .word span{
+  span.word{
   	font-weight: 700px;
   }
-  .style span{
+  span.word{
   	font-style: italic;
   }
-  .spacing span{
-  	word-spacing: 1.2em;
+  span.spacing{
+  	word-spacing: 30px;
   }
-  #end h1{
+  #end h2{
    padding-top: 200px;
    color: white;
  }
