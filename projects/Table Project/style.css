@@ -53,6 +53,8 @@ body {
 
   .tab p {
   	font-family: 'Lato', serif;
+    font-style: italic;
+    font-weight: 500px;
   }
 
   .tab h3 {
@@ -64,18 +66,18 @@ body {
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
-  .fam p{
+  .fam span{
   	font-family: 'Courier';
   	font-weight: 500px;
   }
 
-  .word p{
+  .word span{
   	font-weight: 700px;
   }
-  .style p{
+  .style span{
   	font-style: italic;
   }
-  .spacing p{
+  .spacing span{
   	word-spacing: 1.2em;
   }
   #end h1{
