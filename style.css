@@ -13,25 +13,25 @@ body
   background-position: center;
   text-align: center;
 }
-.opener h1 {
+h1.opener {
   padding: 20px 20px;
   margin: auto;
   color: rgba(0, 0, 0, 0.9);
   font-family: Roboto, Times, san-serif;
   font-weight: bold;
 }
-.extra h2 {
+h2.extra {
   font-size: 60px;
   font-weight: bold;
 }
-.extra h3 {
+h3.extra {
   color: rgba(0, 0, 0, 0.9);
   font-family: Montserrat, serif;
   font-size: 40px;
   font-style: italic;
   padding-bottom: 20px;
 }
- .extra p{
+ p.extra{
   font-size: 25px;
   font-family: Courier, Times, san-serif;
   font-weight: bold;
