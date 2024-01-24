@@ -55,7 +55,8 @@ body {
   	font-family: 'Lato', serif;
     font-style: italic;
     font-weight: 500px;
-    font-size: 30px;
+    font-size: 60px;
+    color: green;
   }
 
   h3.tab{
