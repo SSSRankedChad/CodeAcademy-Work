@@ -6,11 +6,7 @@
 }
 body
 {
-  background-image: url("../https://newsroom.unsw.edu.au/sites/default/files/thumbnails/image/shutterstock_304515521_1.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("../../../https://newsroom.unsw.edu.au/sites/default/files/thumbnails/image/shutterstock_304515521_1.jpg");
   text-align: center;
 }
 h1.opener {
