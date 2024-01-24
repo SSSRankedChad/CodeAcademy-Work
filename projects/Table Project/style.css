@@ -9,7 +9,7 @@ body {
 
   @font-face {
   	font-family: 'Lato';
-  	font-weight: 400px;
+  	font-weight: 400;
   	font-style: normal;
   	src: url('https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2') format('woff2');
     src: url('https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff') format('woff');
@@ -20,7 +20,7 @@ body {
 
   @font-face {
   	font-family: 'Abril Fatface';
-  	font-weight: 500px;
+  	font-weight: 500;
   	font-style: italic;
   	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
     src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff') format('woff');
@@ -31,7 +31,7 @@ body {
 
   @font-face {
   	font-family: 'Merriweather';
-  	font-weight: 400px;
+  	font-weight: 400;
   	font-style: normal;
   	src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2') format('woff2');
     src: url('https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff') format('woff');
@@ -70,17 +70,17 @@ body {
   }
   span.fam{
   	font-family: 'Merriweather';
-  	font-weight: 500px;
+  	font-weight: 400;
   }
 
   span.word{
-  	font-weight: 700px;
+  	font-weight: 700;
   }
   span.word{
   	font-style: italic;
   }
   span.spacing{
-  	word-spacing: 30px;
+  	word-spacing: 0.8em;
   }
   #end h2{
    padding-top: 200px;
