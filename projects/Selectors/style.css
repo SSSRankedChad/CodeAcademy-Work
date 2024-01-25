@@ -78,18 +78,21 @@ h1 {
 
 .merriweather p {
 	font-family: 'Merriweather';
-	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 .courier p {
 	font-family: 'Courier';
-	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 .montserrat p {
 	font-family: 'Montserrat';
-	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 .serif p {
-	font-family: serif;
+	font-family: 'Arial', serif;
 	font-weight: noraml;
 }
 #main h1 {
