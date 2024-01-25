@@ -24,11 +24,11 @@ body {
 	border: 1px solid blue;
 }
 .fonts {
-	padding-top: 30px;
+	margin: auto;
 	border: 1px solid black;
 }
 .headings {
-	padding-bottom: 30px;
+	margin: auto;
 	border: 1px solid black;
 }
 
