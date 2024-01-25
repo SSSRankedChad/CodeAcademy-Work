@@ -22,14 +22,20 @@ body {
 .colors {
 	display: inline-block;
 	border: 1px solid blue;
+	width: 100%;
+	height: 50%;
 }
 .fonts {
         padding-top: 100px;
 	border: 1px dotted black;
+	width: 100%;
+	height: 50%;
 }
 .heading {
 	padding-top: 100px
 	border: 2px solid black;
+	width: 100%;
+	height: 50%;
 }
 
 @font-face {
