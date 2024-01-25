@@ -2,6 +2,23 @@ body {
 	background-color: rgba(232, 138, 114, 0.7);
 }
 
+.nav a {
+	display: inline-block;
+}
+.nav a:hover{
+	color: blue;
+}
+.nav a:visited {
+	color: red;
+	text-decoration: none;
+}
+
+.nav li.location+li.location a::before {
+	content: ">";
+	color: gray;
+}
+
+
 .colors {
 	display: inline-block;
 	border: 1px solid blue;
