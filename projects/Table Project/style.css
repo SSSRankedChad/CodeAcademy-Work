@@ -69,15 +69,15 @@ body {
   	background-color: rgba(46, 152, 168, 0.7);
   	border: 1px solid black;
   }
-  .fam span{
+  #fam span{
   	font-family: 'Merriweather';
   	font-weight: 400;
   }
 
-  .word span{
+  #word span{
   	font-weight: 700;
   }
-  .word span{
+  #word span{
   	font-style: italic;
   }
   .spacing span{
