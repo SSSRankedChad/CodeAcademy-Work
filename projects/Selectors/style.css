@@ -20,16 +20,16 @@ body {
 
 
 .colors {
-	display: inline;
+	display: inline-block;
 	border: 1px solid blue;
 }
 .fonts {
         padding-top: 100px;
-	border: 1px solid black;
+	border: 1px dotted black;
 }
 .heading {
 	padding-top: 100px
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
 @font-face {
