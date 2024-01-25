@@ -77,10 +77,10 @@ body {
   #word span{
   	font-weight: 700;
   }
-  #word span{
+  #style span{
   	font-style: italic;
   }
-  .spacing span{
+  #spacing span{
   	word-spacing: 0.8em;
   }
   #end h2{
