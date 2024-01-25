@@ -20,7 +20,7 @@ body {
 
 
 .colors {
-	display: inline-block;
+	display: inline;
 	border: 1px solid blue;
 }
 .fonts {
