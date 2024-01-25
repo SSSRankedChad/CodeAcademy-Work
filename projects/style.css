@@ -1,0 +1,90 @@
+body {
+	background-color: rgba(232, 138, 114, 0.7);
+}
+.colors, .fonts, .headings {
+	border: 1px solid black;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.colors {
+	display: inline-block;
+}
+
+@font-face {
+  font-family: 'Courier';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=i7dKIFtyYSaNG9A_JrmedQ&skey=415f62b718dd1a36&v=v11) format('woff2');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+}
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#blue h3 {
+	background-color: rgba(0, 0, 200, 1);
+	font-weight: bold;
+}
+#red h3 {
+	background-color: rgba(200, 0, 0, 1);
+	font-weight: bold;
+}
+#green h3 {
+	background-color: rgba(0, 200, 0, 1.0);
+	font-weight: bold;
+}
+
+.merriweather p {
+	font-family: 'Merriweather';
+	font-weight: normal;
+}
+.courier p {
+	font-family: 'Courier';
+	font-weight: normal;
+}
+.montserrat p {
+	font-family: 'Montserrat';
+	font-weight: normal;
+}
+.serif p {
+	font-family: serif;
+	font-weight: noraml;
+}
+#main h1 {
+	font-family: 'Merriweather';
+	font-weight: 500;
+	font-size: 50px;
+}
+#sub h2 {
+	font-family: 'Courier';
+	font-weight: normal;
+	font-style: italic;
+}
+#para span {
+   font-family: 'Lato';
+   font-weight: ligher;
+   font-size: 15px;
+}
