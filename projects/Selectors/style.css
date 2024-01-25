@@ -1,16 +1,18 @@
 body {
 	background-color: rgba(232, 138, 114, 0.7);
 }
-.colors, .fonts, .headings {
-	border: 1px solid black;
-	margin: 0 auto;
-	padding-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
 
 .colors {
 	display: inline-block;
+	border: 1px solid blue;
+}
+.fonts {
+	padding-top: 30px;
+	border: 1px solid black;
+}
+.headings {
+	padding-bottom: 30px;
+	border: 1px solid black;
 }
 
 @font-face {
