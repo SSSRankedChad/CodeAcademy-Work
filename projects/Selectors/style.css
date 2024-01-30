@@ -3,6 +3,7 @@ body {
 }
 
 .nav li{
+	padding-bottom: 100px;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 15px;
