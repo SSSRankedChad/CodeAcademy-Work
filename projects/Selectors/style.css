@@ -29,11 +29,11 @@ body {
         padding-top: 100px;
 	border: 1px dotted black;
 	width: 100%;
-	height: 250px;
+	height: 200px;
 }
 .heading {
 	padding-top: 100px
-	border: 2px solid black;
+	border: 1px solid black;
 	width: 100%;
 	height: 300px;
 }
