@@ -30,12 +30,12 @@ body {
 .fonts {
 	border: 1px dotted black;
 	width: 100%;
-	height: 200px;
+	height: 150px;
 }
 .heading {
 	border: 1px solid black;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 }
 
 @font-face {
