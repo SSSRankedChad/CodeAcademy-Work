@@ -4,6 +4,8 @@ body {
 
 .nav li{
 	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
 }
 .nav a:hover{
 	color: blue;
