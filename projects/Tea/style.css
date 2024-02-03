@@ -5,9 +5,6 @@
    font-style: normal;
    src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
 }
-*{
-   background-color: black;
-}
 .nav{
    font-family: 'Helvetica';
    display: inline-block;
