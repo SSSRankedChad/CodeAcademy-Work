@@ -29,7 +29,7 @@
 }
 
 body {
-   background-image: url('../resources/img-mission-background.jpg');
+   background-image: url('/resources/img-mission-background.jpg');
    width: 1200px;
    height: 700px;
 }
@@ -52,7 +52,7 @@ body {
    margin-botom: 10px;
 }
 .locations {
-   background-image: url("../resources/img-locations-background.jpg");
+   background-image: url("/resources/img-locations-background.jpg");
    width: 1200px;
    height: 500px;
 }
