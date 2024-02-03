@@ -1,0 +1,74 @@
+
+@font-face {
+   font-family: "Helvetica";
+   font-weight: 400;
+   font-style: normal;
+   src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
+}
+*{
+   background-color: black;
+}
+.nav{
+   font-family: 'Helvetica';
+   display: inline-block;
+   position: fixed;
+   font-size: 22px;
+   background-color: black;
+   opacity: 0.9;
+   border-bottom: 1px solid seashell;
+}
+.nav img {
+   margin-left: 10px;
+   height: 50px;
+}
+.nav a {
+   text-decoration: underline;
+}
+.nav li {
+   text-align: right;
+}
+
+body {
+   background-image: url('../resources/img-mission-background.jpg');
+   width: 1200px;
+   height: 700px;
+}
+.description {
+   font-family: 'Helvetica';
+   font-size: 22px;
+   text-align: center;
+   background-color: black;
+}
+.catalog {
+   display: inline-block;
+   font-family: 'Helvetica';
+   font-size: 22px;
+   background-color: black;
+   width: 1000px;
+}
+.catalog img {
+   width: 300px;
+   height: 200px;
+   margin-botom: 10px;
+}
+.locations {
+   background-image: url("../resources/img-locations-background.jpg");
+   width: 1200px;
+   height: 500px;
+}
+.locations ul {
+   background-color: black;
+   opacity: 1;
+   width: 300px;
+   margin-right: 40px;
+   margin-top: 15px;
+}
+footer {
+   background-color: black;
+   height: 200px;
+}
+span {
+   margin-left: 20px;
+   text-align: left;
+}
+
