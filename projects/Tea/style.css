@@ -5,11 +5,13 @@
    font-style: normal;
    src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
 }
-body {
+* {
    margin: 0;
    font-family: 'Helvetica';
    color: seashell;
    background-color: black;
+   align-items: center;
+   text-align: center;
 }
 .nav{
    display: flex;
@@ -26,15 +28,13 @@ body {
    margin-left: 10px
    height: 50px;
 }
-.nav a {
-   text-decoration: underline;
-}
 .nav ul{
-   font-family: 'Helvetica';
-   color: seashell;
-   font-size: 22px;
    display: flex;
    justify-content: flex-end;
+   text-decoration: underline;
+}
+nav {
+   padding: 0 20px;
 }
 .mission {
    background-image: url('/resources/img-mission-background.jpg');
@@ -110,9 +110,8 @@ body {
    align-items: center;
 }
 .contact span {
-   display: flex;
-   flex-direction: flex-start;
-   align-items: left;
+   text-align: left;
+   padding: 20px;
    margin-left: 20px; 
 }
 
