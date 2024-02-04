@@ -25,7 +25,7 @@
    background-color: black;
 }
 .nav li.location+li.location a::before {
-   content: ' >';
+   content: '  ';
    color: seashell;
 }
 .nav img {
@@ -59,7 +59,6 @@
 .catalog {
    display: flex;
    flex-direction: columns;
-   width: 1000px;
    margin: 0 auto;
    padding: 15px 0;
    background-color: black; 
