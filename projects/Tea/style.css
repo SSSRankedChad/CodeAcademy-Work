@@ -19,18 +19,18 @@
    width: 1200px;
    height: 50%;
 }
-.nav img {
+.nav, img {
    margin-left: 10px;
    height: 50px;
 }
-.nav a {
+.nav, a {
    display: inline-block;
    text-decoration: underline;
 }
-.nav li {
+.nav, li {
    text-align: right;
 }
-#image img {
+#image, img {
    display: block;
    width: 1200px;
    height: 700px;
@@ -45,13 +45,17 @@
    width: 1000px;
    background-color: black;
 }
-.catalog img {
+.catalog, img {
+   text-align: center;
+   margin-left: auto;
+   margin-left: auto;
    display: inline-block;
    width: 300px;
    height: 200px;
    margin-botom: 10px;
 }
-.locations ul {
+.locations, ul {
+   text-align: center;
    display: inline-block;
    background-color: black;
    opacity: 1;
