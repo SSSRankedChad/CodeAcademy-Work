@@ -5,12 +5,6 @@
    font-style: normal;
    src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
 }
-* {
-   font-family: 'Helvetica';
-   color: seashell;
-   font-size: 22px;
-   background-color: black;
-}
 .nav{
    position: fixed;
    opacity: 0.9;
@@ -27,6 +21,9 @@
    display: inline-block;
 }
 .nav li {
+   font-family: 'Helvetica';
+   color: seashell;
+   font-size: 22px;
    text-align: right;
    margin-left: 1000px;
 }
@@ -38,6 +35,9 @@
    margin-left: auto;
 }
 .description {
+   font-family: 'Helvetica';
+   color: seashell;
+   font-size: 22px;
    padding-bottom: 240px;
    text-align: center;
 }
@@ -49,6 +49,7 @@
    height: 50px;
    margin-left: 30px;
    margin-botom: 10px;
+   
 }
 .catalog {
    width: 1000px;
@@ -56,17 +57,17 @@
    
 }
 .locations ul {
+   background-image: url('/resource/img-locations-background.jpg')
    text-align: center;
+   font-family: 'Helvetica';
+   color: seashell;
+   font-size: 22px;
    padding-bottom: 100px;
    float: left;
    opacity: 1;
    border: 1px solid black;
    margin-right: 40px;
    margin-top: 15px;
-}
-.locations img {
-   width: 50px;
-   height: 50px;
 }
 footer {
    padding-bottom: 200px;
