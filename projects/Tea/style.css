@@ -24,7 +24,7 @@
    max-height: 80px;
    background-color: black;
 }
-.nav li.location+li.location a::before {
+.nav p.location+p.location a::before {
    content: '>';
    color: seashell;
 }
@@ -32,7 +32,7 @@
    display: flex;
    justify-content: flex-start;
    margin-left: 10px
-   padding-bottom: 50px;
+   margin-bottom: 50px;
 }
 .nav ul{
    display: flex;
