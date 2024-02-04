@@ -24,8 +24,8 @@
    max-height: 80px;
    background-color: black;
 }
-.nav p.location+p.location a::before {
-   content: '>';
+.nav p.location+p.location a::after {
+   content: '!';
    color: seashell;
 }
 .nav img {
@@ -62,7 +62,7 @@
    width: auto;
    max-width: 1000px;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    margin: 0 auto;
    padding: 15px 0;
    background-color: black; 
@@ -77,8 +77,6 @@
    align-items: center;
 }
 .catalog-pics img {
-   width: 300px
-   height: 200px
    padding: 10px
 }
 .locations h2 {
