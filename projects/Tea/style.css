@@ -58,7 +58,7 @@
 }
 .catalog {
    display: flex;
-   flex-direction: row;
+   flex-direction: columns;
    width: 1000px;
    margin: 0 auto;
    padding: 15px 0;
