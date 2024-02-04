@@ -18,10 +18,10 @@
    opacity: 0.9;
    border-bottom: 1px solid seashell;
    width: 100%;
-   height: 100px;
+   height: 80px;
 }
 .nav img {
-   margin-left: 10px;
+   padding-left: 10px;
    height: 50px;
 }
 .nav a {
@@ -32,11 +32,9 @@
    text-align: right;
 }
 #image img {
-   position: relative;
-   top: 200px;
    display: block;
    width: 100%;
-   height: 700px;
+   height:700px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -46,11 +44,11 @@
    text-align: center;
 }
 }
-#lists img {
+#lists{
    display: inline-block;
    float: left;
-   width: 300px;
-   height: 200px;
+   width: 50px;
+   height: 50px;
    margin-left: 30px;
    margin-botom: 10px;
 }
