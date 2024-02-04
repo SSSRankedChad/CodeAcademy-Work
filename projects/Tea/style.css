@@ -32,13 +32,11 @@
    display: flex;
    justify-content: flex-end;
    text-decoration: underline;
-}
-nav {
    padding: 0 20px;
 }
 .mission {
    background-image: url('/resources/img-mission-background.jpg');
-   width: 100%
+   max-width: 1200px;
    height: 700px;
    background-repeat: no-repeat;
    background-position: center;
@@ -46,13 +44,20 @@ nav {
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column
+   flex-direction: column;
+   padding-top: 70px;
+}
+.mission div {
+   width: 100%;
+   padding: 10px;
+   opacity: 0.8;
 }
 .catalog {
    display: flex;
    flex-direction: columns;
    width: 1000px;
    margin: 0 auto;
+   padding: 15px 0;
    background-color: black; 
    justify-content: space-around;
    align-items: center;
@@ -79,7 +84,7 @@ nav {
    flex-direction: columns;
    align-items: center;
    justify-content: space-around;
-   width: 1200px;
+   max-width: 1200px;
    height: 500px;
 }
 .locations-box {
