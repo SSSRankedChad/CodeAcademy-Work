@@ -25,10 +25,10 @@
    height: 50px;
 }
 .nav a {
-   display: inline-block;
    text-decoration: underline;
 }
 .nav li {
+   display: inline-block;
    text-align: right;
 }
 #image img {
