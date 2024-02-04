@@ -117,8 +117,7 @@
    margin: 15px 20px;
    padding: 15px 40px;
 }
-.locations-info p,
-.locations-info h3 {
+.locations-info p, h3 {
    margin: 10px auto;
 }
 .contact {
@@ -132,7 +131,7 @@
 }
 .contact span {
    text-align: left;
-   padding: 20px;
+   margin-bottom: 20px;
    margin-left: 20px; 
 }
 
