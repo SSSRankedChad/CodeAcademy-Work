@@ -30,6 +30,7 @@
 .nav li {
    display: inline-block;
    text-align: right;
+   margin-left: 1000px;
 }
 #image img {
    display: block;
