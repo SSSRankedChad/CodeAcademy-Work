@@ -9,6 +9,7 @@
    font-family: 'Helvetica';
    color: seashell;
    font-size: 22px;
+   background-color: black;
 }
 .nav{
    background-color: black;
@@ -17,20 +18,20 @@
    opacity: 0.9;
    border-bottom: 1px solid seashell;
    width: 100%;
-   height: 50%;
+   height: 50px;
 }
-.nav, img {
+.nav img {
    margin-left: 10px;
    height: 50px;
 }
-.nav, a {
+.nav a {
    display: inline-block;
    text-decoration: underline;
 }
 .nav, li {
    text-align: right;
 }
-#image, img {
+#image img {
    display: block;
    width: 100%;
    height: 700px;
@@ -41,13 +42,12 @@
    position: relative;
    top: 240px;
    text-align: center;
-   background-color: black;
 }
 .catalog {
    width: 1000px;
    background-color: black;
 }
-.catalog, img {
+.catalog img {
    text-align: center;
    margin-left: auto;
    margin-left: auto;
@@ -56,17 +56,19 @@
    height: 200px;
    margin-botom: 10px;
 }
-.locations, ul {
-   text-align: center;
+.locations {
+   margin-top: 100px;
+}
+.locations ul {
+   float: left;
+   text-align: horizontal;
    display: inline-block;
-   background-color: black;
    opacity: 1;
    width: 300px;
    margin-right: 40px;
    margin-top: 15px;
 }
 footer {
-   background-color: black;
    height: 200px;
 }
 span {
