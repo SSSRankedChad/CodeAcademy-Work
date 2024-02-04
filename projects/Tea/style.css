@@ -58,7 +58,7 @@
 }
 .catalog {
    display: flex;
-   flex-direction: columns;
+   flex-direction: row;
    width: 1000px;
    margin: 0 auto;
    padding: 15px 0;
@@ -74,8 +74,8 @@
    align-items: center;
 }
 .catalog-pics img {
-   width: 300px
-   height: 200px
+   width: 90px
+   height: 80px
    padding-bottom: 10px
 }
 .locations{
