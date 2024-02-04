@@ -58,6 +58,7 @@
    background-color: black;
    
 .locations {
+   text-align: center;
    margin-top: 100px;
 }
 .locations ul {
@@ -69,7 +70,8 @@
    margin-top: 15px;
 }
 footer {
-   height: 200px;
+   positive: relative;
+   bottom: 200px;
 }
 span {
    display: inline;
