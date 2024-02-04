@@ -78,6 +78,10 @@
    height: 80px
    padding-bottom: 10px
 }
+.locations h2 {
+   padding-top: 30px;
+   text-align: center;
+}
 .locations{
    margin-top: 20px auto;
    background-image: url('/resources/img-locations-background.jpg');
@@ -109,6 +113,10 @@
    min-height: 100%;
    margin: 15px 20px;
    padding: 15px 40px;
+}
+.locations-info p,
+.locations-info h3 {
+   margin: 10px auto;
 }
 .contact {
    display: flex;
