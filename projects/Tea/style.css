@@ -5,11 +5,15 @@
    font-style: normal;
    src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
 }
-.nav{
+* {
    font-family: 'Helvetica';
+   color: seashell;
+   font-size: 22px;
+}
+.nav{
+   background-color: black;
    display: inline-block;
    position: fixed;
-   font-size: 22px;
    opacity: 0.9;
    border-bottom: 1px solid seashell;
    width: 1200px;
@@ -24,23 +28,25 @@
 .nav li {
    text-align: right;
 }
+#image img {
+   width: 1200px;
+   height: 700px;
+}
 .description {
-   font-family: 'Helvetica';
-   font-size: 22px;
    text-align: center;
+   background-color: black;
 }
 .catalog {
-   display: inline-block;
-   font-family: 'Helvetica';
-   font-size: 22px;
    width: 1000px;
 }
 .catalog img {
+   display: inline-block;
    width: 300px;
    height: 200px;
    margin-botom: 10px;
 }
 .locations ul {
+   display: inline-block;
    background-color: black;
    opacity: 1;
    width: 300px;
