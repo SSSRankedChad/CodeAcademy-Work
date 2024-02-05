@@ -121,7 +121,7 @@
 .contact {
    display: flex;
    flex-direction: column;
-   text-align: center;
+   text-align: right;
    max-width: 1000px;
    min-height: 200px;
    justify-content: space-around;
