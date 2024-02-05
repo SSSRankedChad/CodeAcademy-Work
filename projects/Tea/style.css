@@ -85,7 +85,7 @@
    text-align: center;
 }
 .locations{
-   margin-top: 20px auto;
+   margin: 0 auto;
    background-image: url('/resources/img-locations-background.jpg');
    background-repeat: no-repeat;
    background-position: center;
