@@ -121,12 +121,16 @@
 .contact {
    display: flex;
    flex-direction: column;
-   width: 1000px;
-   height: 200px;
+   max-width: 1000px;
+   min-height: 200px;
    justify-content: space-around;
    align-items: center;
+   width: 50%;
 }
-.contact span {
+.about span {
+   display: flex;
+   align-items: left;
+   justify-content: flex-start
    text-align: left;
    margin-bottom: 20px;
    margin-left: 20px; 
