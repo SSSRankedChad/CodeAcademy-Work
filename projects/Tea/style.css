@@ -127,6 +127,7 @@
    justify-content: space-around;
    align-items: right;
    width: 100%;
+   margin-left: 700px;
 }
 .about span {
    display: flex;
