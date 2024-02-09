@@ -8,8 +8,6 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
-  background-image: url('/resources/banner-landingpage.jpg');
-  background-size: cover;
 }
 
 .center {
@@ -39,7 +37,6 @@ html {
 /* Header */
 
 header {
-  margin-top: 175px;
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
@@ -118,6 +115,9 @@ header .mobile {
 /* Sign Up Section */
 
 #sign-up-section {
+  background-image: url('/resources/banner-landingpage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -125,6 +125,8 @@ header .mobile {
 }
 
 #sign-up-cta {
+  margin-top: 175px;
+  left: 10%;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -228,10 +230,11 @@ header .mobile {
   background-color: white;
 }
 
-.feature .image-container {
-  width: 90%;
+.feature .image-container{
   height: 65%;
   margin: 0 auto;
+  display: block;
+  width: 100%;
 }
 
 .feature h2 {
