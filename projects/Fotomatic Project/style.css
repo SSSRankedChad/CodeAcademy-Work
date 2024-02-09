@@ -119,6 +119,7 @@ header .mobile {
   background-image: url('/resources/banner-landingpage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
