@@ -39,7 +39,7 @@ html {
 
 header {
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -234,6 +234,7 @@ header .mobile {
 }
 
 .feature .image-container{
+  width: 90%;
   height: 65%;
   margin: 0 auto;
 }
@@ -273,7 +274,7 @@ header .mobile {
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
@@ -303,6 +304,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -394,7 +396,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
