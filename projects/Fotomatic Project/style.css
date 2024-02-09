@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -233,8 +234,6 @@ header .mobile {
 .feature .image-container{
   height: 65%;
   margin: 0 auto;
-  display: block;
-  width: 100%;
 }
 
 .feature h2 {
