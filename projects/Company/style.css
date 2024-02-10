@@ -14,7 +14,7 @@
 .header {
 	position: fixed;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
 	background-color: seablue;
@@ -24,10 +24,10 @@
 	max-width: 100px;
 	max-height: 60px;
 }
-.header .nav {
+.nav {
 	display: flex;
 	align-content: center;
-	flex-direction: column;
+	flex-direction: row;
 	list-style-type: none;
 	margin-left: 80px;
 	margin-right: 20%;
