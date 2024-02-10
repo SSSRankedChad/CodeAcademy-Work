@@ -26,8 +26,6 @@
 }
 .nav {
 	display: flex;
-	align-content: center;
-	flex-direction: row;
 	list-style-type: none;
 	margin-left: 80px;
 	margin-right: 20%;
