@@ -4,12 +4,15 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
 }
-
 * {
 	font-family: 'Roboto';
 	color: midnightblue;
 	font-size: 16px;
 	margin: 0 auto;
+}
+h3 {
+	text-align: center;
+	font-size: 2rem;
 }
 .header {
 	position: fixed;
