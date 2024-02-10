@@ -36,7 +36,7 @@ h3 {
 	margin-left: 80px;
 	margin-right: 20%;
 }
-#transit {
+.transit {
 	display: flex;
 	flex-direction: row;
 	align-content: left;
@@ -48,13 +48,13 @@ h3 {
 	opacity: 0.8;
 	top: 20%;
 }
-#transit_image {
+.transit img {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-content: right;
-	max-width: 100%;
-	min-height: 75px;
+	flex-direction: column;
+	max-width: 200px
+	min-height: 100px;
 }
 
 .info {
@@ -75,6 +75,8 @@ h3 {
 	align-content: center;
 	justify-content: space-around;
 	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
 	opacity: 0.8;
 	
 }
