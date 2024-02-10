@@ -21,6 +21,7 @@ h3 {
 	justify-content: space-around;
 	align-content: center;
 	background-color: white;
+	max-width: 100%
 }
 .header img {
 	display: block;
@@ -36,9 +37,9 @@ h3 {
 }
 #transit {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-content: left;
-	justify-content: flex-start;
+	justify-content: space-around;
 	background-color: yellowgreen;
 	max-width: 100px;
 	min-height: 25%;
@@ -48,8 +49,8 @@ h3 {
 }
 #transit_image {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+	flex-direction: row;
+	justify-content: space-around;
 	align-content: right;
 	max-width: 100%;
 	min-height: 75px;
