@@ -24,11 +24,12 @@ h3 {
 }
 .header img {
 	display: block;
-	max-width: 100px;
+	max-width: 60px;
 	max-height: 60px;
 }
-.nav {
+.nav ul{
 	display: flex;
+	justify-content: flex-end;
 	list-style-type: none;
 	margin-left: 80px;
 	margin-right: 20%;
@@ -36,18 +37,18 @@ h3 {
 #transit {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	justify-content: space-around;
+	align-content: left;
+	justify-content: flex-start;
 	background-color: yellowgreen;
-	max-width: 500px;
+	max-width: 100px;
 	min-height: 25%;
-	padding: 100px 100px;
+	padding: 50px 50px;
 	opacity: 0.8;
-	top: 15%;
+	top: 20%;
 }
 #transit_image {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-end;
 	align-content: right;
 	max-width: 100%;
