@@ -17,6 +17,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
+	background-color: seablue;
 }
 .header img {
 	display: block;
