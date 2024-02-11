@@ -51,7 +51,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	max-width: 100%
-	height: 700px;
+	height: 300px;
 	margin-right: auto;
 }
 .transit h2 {
@@ -78,7 +78,8 @@ h3 {
 	align-content: center;
 	justify-content: space-around;
 	max-width: 100%;
-	height: 700px;
+	height: 500px;
+	margin-top: auto;
 }
 .info h3 {
 	text-align: center;
