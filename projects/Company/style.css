@@ -35,10 +35,9 @@ h3 {
 	justify-content: flex-end;
 	list-style-type: none;
 	padding: 0 20px;
-}
-.header li {
-	padding-left: 20px;
-	font-size: 40px;
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
 }
 .header ul a::after {
 	text-decoration: none;
