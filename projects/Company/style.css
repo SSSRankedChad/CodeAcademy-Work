@@ -20,6 +20,7 @@ h3 {
 	justify-content: space-around;
 	align-content: center;
 	background-color: blue;
+	font-size: 3rem;
 	opacity: 0.9;
 	width: 100%;
 	border-bottom: 1px solid black;
@@ -34,13 +35,11 @@ h3 {
 	display: flex;
 	justify-content: flex-end;
 	list-style-type: none;
-	font-size: 30px;
 	padding: 0 20px;
 }
 .header ul a::after {
 	text-decoration: none;
-	content: " >";
-	color: black;
+	content: " ";
 }
 .transit{
 	background-image: url("/resources/tri-delta.jpeg");
@@ -55,6 +54,7 @@ h3 {
 	align-items: center;
 	flex-direction: column;
 	padding-top: 70px;
+	overflow: hidden;
 }
 .transit h2 {
 	background-color: yellowgreen;
