@@ -36,12 +36,13 @@ h3 {
 	list-style-type: none;
 	padding: 0 20px;
 }
-.transit {
+.transit h2 {
 	display: grid;
-	grid-template-rows: repeat(1, 1fr);
-	grid-template-columns: repeat(1, 1fr)
+	grid-template-rows: repeat(1, 100);
+	grid-template-columns: repeat(1, 100fr)
 	text-align: center;
 	background-color: yellowgreen;
+	align-items: left;
 	max-width: 100%;
 	min-height: 25%;
 	padding: 100px 100px;
