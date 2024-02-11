@@ -42,7 +42,7 @@ h3 {
 	align-content: center;
 	
 }
-.header ul a::after {
+.header ul li::before {
 	text-decoration: none;
 	content: "  >";
 }
