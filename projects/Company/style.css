@@ -60,8 +60,9 @@ h3 {
 	background-color: yellowgreen;
 	text-align: center;
 	align-content: center;
-	padding-left: 100%;
-	padding-right: 100%;
+	width: 100%;
+	padding: 10px;
+	opacity: 0.8;
 }
 
 .info {
