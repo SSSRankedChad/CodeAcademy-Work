@@ -19,7 +19,7 @@ h3 {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
-	background-color: blue;
+	background-color: yellowgreen;
 	opacity: 0.9;
 	width: 100%;
 	border-bottom: 1px solid black;
@@ -27,7 +27,7 @@ h3 {
 .header img {
 	display: flex;
 	justify-content: flex-start
-        height: 60px;
+        height: 50px;
 	margin-left: 10px;
 }
 .header ul{
@@ -35,14 +35,17 @@ h3 {
 	justify-content: flex-end;
 	list-style-type: none;
 	padding: 0 20px;
-	font-size: 2.5rem;
 	text-align: center;
 	align-content: center;
+	margin-top: 50px;
 	
 }
-.header ul li::before {
+.header li {
+	font-size: 2rem;
+}
+.header a::before {
 	text-decoration: none;
-	content: "  >";
+	content: " ";
 }
 .transit{
 	background-image: url("/resources/tri-delta.jpeg");
@@ -65,7 +68,6 @@ h3 {
 	align-content: center;
 	width: 100%;
 	padding: 10px;
-	opacity: 0.8;
 	font-size: 2rem;
 }
 
