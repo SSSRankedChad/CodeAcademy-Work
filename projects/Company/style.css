@@ -20,8 +20,9 @@ h3 {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	background-color: white;
+	background-color: blue;
 	max-width: 100%
+	z-index = 1;
 }
 .header img {
 	display: flex;
@@ -33,14 +34,18 @@ h3 {
 	display: flex;
 	justify-content: flex-end;
 	list-style-type: none;
-	margin-left: 80px;
-	margin-right: 20%;
+	margin-left: 100%;
+}
+.nav ul a::before {
+	content: " ";
+	text-decoration: none;
 }
 .transit {
 	display: flex;
 	flex-direction: row;
 	align-content: left;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	background-color: yellowgreen;
 	max-width: 100px;
 	min-height: 25%;
@@ -52,7 +57,8 @@ h3 {
 	display: flex;
 	justify-content: flex-end;
 	align-content: right;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	max-width: 200px
 	min-height: 100px;
 }
