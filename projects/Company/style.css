@@ -46,7 +46,7 @@ h3 {
 }
 .header a::before {
 	text-decoration: none;
-	content: " ";
+	content: " x";
 }
 .transit{
 	background-image: url("/resources/tri-delta.jpeg");
