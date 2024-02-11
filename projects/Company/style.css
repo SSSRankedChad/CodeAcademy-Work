@@ -51,9 +51,9 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	max-width: 100%
-	height: 300px;
+	max-height: 50%
 	margin-right: auto;
-	margin-bottom: 300px;
+	margin-top: 300px;
 }
 .transit h2 {
 	background-color: yellowgreen;
