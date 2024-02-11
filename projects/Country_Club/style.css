@@ -1,0 +1,154 @@
+@font-face {
+	 font-family: 'Merriweather';
+  	 font-style: normal;
+  	 font-weight: 400;
+  	 src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+}
+
+* {
+	font-family: 'Merriweather';
+	font-size: 16px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-content: content;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	background-color: white;
+}
+
+.header img{
+	 display: flex;
+	 justify-content: flex-start;
+     width: 100%;
+     max-height: 50px;
+     margin-left: 10px;
+}
+
+.header ul {
+	display: flex;
+	justify-content: flex;
+	list-style-type: none;
+}
+
+.header li {
+	margin-right: 30px;
+}
+
+.country_club {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align- center;
+}
+
+.country_club img {
+	width: 100%;
+	max-height: 500px;
+}
+
+.country_club h2 {
+	font-weight: bold;
+	background-color: brown;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	max-height: 200px;
+}
+
+.promo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+}
+
+.promo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+}
+
+.promo p {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	text-align: right;
+}
+
+.promo h2 {
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: right;
+}
+
+.promo span {
+   color: brown;
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.promo_image {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: content;
+	align-content: center;
+}
+
+.promo_image img {
+	max-width: 300px;
+	max-height: 200px;
+	padding-left: 30px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+	max-height: 100%;
+	max-height: 100%;
+	background-color: black;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+	margin-right: 100px;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+	margin-left: 100px;
+}
+
+#copyright {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: auto;
+}
