@@ -136,6 +136,7 @@
 	align-content: center;
 	text-align: center;
 	margin-right: 100px;
+	color: white;
 }
 
 .address {
@@ -145,10 +146,12 @@
 	align-content: center;
 	text-align: center;
 	margin-left: 100px;
+	color: white;
 }
 
 #copyright {
 	display: flex;
 	justify-content: flex-start;
 	margin-left: auto;
+	color: white;
 }
