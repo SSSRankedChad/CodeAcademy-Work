@@ -41,7 +41,8 @@ h3 {
 	
 }
 .header li {
-	font-size: 2rem;
+	font-size: 3rem;
+	margin-left: auto;
 }
 .header a::before {
 	text-decoration: none;
