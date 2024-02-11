@@ -36,6 +36,11 @@ h3 {
 	list-style-type: none;
 	padding: 0 20px;
 }
+.nav ul a::before {
+	text-decoration: none;
+	content: " >";
+	color: black;
+}
 .transit {
 	display: grid;
 	grid-template-rows: 200px);
