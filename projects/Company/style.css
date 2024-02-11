@@ -46,14 +46,15 @@ h3 {
 	background-image: url("/resources/Tri-Delta-Transit-Jeanne-Krieg-IMG_3148.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	text-align: center;
+	max-width: 1200px;
+	height: 700px;
+	background-position: center;
+	margin: 0 auto;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 1200px;
-	max-height: 100%;
-	margin-top: 200px;
+	flex-direction: column;
+	padding-top: 70px;
 }
 .transit h2 {
 	background-color: yellowgreen;
