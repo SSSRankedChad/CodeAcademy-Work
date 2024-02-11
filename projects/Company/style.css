@@ -17,12 +17,12 @@ h3 {
 .header {
 	position: fixed;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
 	background-color: blue;
-	opacity: 0.8;
+	opacity: 0.9;
 	width: 100%
+	border-bottom: 1px solid black;
 	z-index = 100;
 }
 .header img {
