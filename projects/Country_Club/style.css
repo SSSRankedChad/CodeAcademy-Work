@@ -114,11 +114,10 @@
 }
 #features_head{
 	display: block;
-	justify-content: center;
-	align-content: center;
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
+	margin-left: 50px;
 }
 .features img {
 	max-width: 200px;
