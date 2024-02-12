@@ -18,7 +18,7 @@
 	height: 70px
 	position: fixed;
 	background-color: black;
-	z-index: 1;
+	opacity: 0.9;
 }
 
 .header img{
@@ -32,6 +32,8 @@
 	display: flex;
 	justify-content: flex;
 	list-style-type: none;
+	padding: 0 20px;
+	margin-top: 50px;
 }
 
 .header li {
@@ -49,9 +51,7 @@
 }
 
 .country_club img {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start
+	display: block;
 	max-width: 400px;
 	max-height: 500px;
 }
