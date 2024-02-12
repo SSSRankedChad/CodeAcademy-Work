@@ -21,10 +21,9 @@
 }
 
 .header img{
-	 display: flex;
-	 justify-content: flex-start;
-     	 width: 50%;
-     	 height: 50px;
+	 display: block;
+	 max-width: 100px;
+     	 max-height: 50px;
          margin-left: 10px;
 }
 
