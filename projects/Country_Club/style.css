@@ -23,9 +23,9 @@
 .header img{
 	 display: flex;
 	 justify-content: flex-start;
-     width: 100%;
-     max-height: 50px;
-     margin-left: 10px;
+     	 width: 50%;
+     	 height: 50px;
+         margin-left: 10px;
 }
 
 .header ul {
@@ -47,11 +47,12 @@
 }
 
 .country_club img {
-	width: 100%;
-	max-height: 500px;
+	width: 50%;
+	max-height: 400px;
 }
 
 .country_club h2, h3 {
+	text-align: justify;
 	font-weight: bold;
 	background-color: brown;
 	display: flex;
@@ -60,6 +61,9 @@
 	align-content: center;
 	width: 100%;
 	max-height: 200px;
+}
+.country_club h2 {
+	padding-bottom: 30px;
 }
 
 .promo {
@@ -118,18 +122,19 @@
 .footer {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-content: center;
 	text-align: center;
 	max-height: 100%;
 	max-height: 100%;
+	margin-right: 100px;
 	background-color: brown;
 }
 
 .contact {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-content: center;
 	text-align: center;
 	margin-right: 100px;
