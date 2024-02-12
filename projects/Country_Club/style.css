@@ -111,10 +111,10 @@
 	max-width: 1200px;
 	
 }
-.features h2 {
+#features_head{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	font-weight: bold;
 	text-align: center;
