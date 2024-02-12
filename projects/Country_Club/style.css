@@ -88,7 +88,7 @@
 	margin-right: 80px;
 }
 
-.promo p {
+.promo p, span {
      font-size: 1.8rem;
 }
 
@@ -103,7 +103,6 @@
 	flex-wrap: wrap;
 	align-content: center;
 	width: 100%;
-	margin-bottom: 200px;
 }
 
 .features h2, p{
@@ -131,7 +130,7 @@
 	max-height: 100%;
 	max-height: 100%;
 	background-color: brown;
-	margin-top: 50px;
+	margin: 0 auto;
 }
 
 #contact {
@@ -140,7 +139,7 @@
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
-	margin-right: 100px;
+	margin: 0 auto;
 }
 
 #address {
@@ -149,13 +148,12 @@
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
-	margin-left: 100px;
 }
 
 .footer span {
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
-	margin-left: 700px;
-	margin-top: 500px;
+	align-content: right;
+	
 }
