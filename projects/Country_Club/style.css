@@ -189,19 +189,21 @@
 	
 }  
 @media only screen and (max-width:480px) and (orientation: portrait) {
+	* {
+	 font-size: 2.5rem;
+	}
 	.header ul {
 		display: none;
 	}
 	.country_club {
-	   padding: 50px;
-	   font-size: 4rem;
+	   width: auto;
+	   padding: auto;
 	   height: 100%
 	}
 	.footer span {
 		display: none;
 	}
 	.promo {
-	    font-size: 2rem;
 	}
 	.features {
 		display: flex;
