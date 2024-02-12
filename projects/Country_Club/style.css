@@ -89,12 +89,15 @@
 	flex-wrap: wrap;
 	align-content: center;
 	width: 100%;
+	margin-bottom: 200px;
 }
 
+.features h2, p{
+	text-align: right;
+}
 .features h2 {
-	text-align: center;
+	font-weight: bold;
 }
-
 .features img {
 	max-width: 200px;
 	max-height: 300px;
@@ -103,7 +106,7 @@
 
 .footer {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
@@ -115,7 +118,7 @@
 
 .contact {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
@@ -124,14 +127,14 @@
 
 .address {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
 	margin-left: 100px;
 }
 
-#copyright {
+.footer span {
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 50px;
