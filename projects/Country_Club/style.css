@@ -113,12 +113,13 @@
 }
 #features_head{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-content: center;
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
+	margin-bottom: 400;
 }
 .features img {
 	max-width: 200px;
