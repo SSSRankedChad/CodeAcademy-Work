@@ -112,6 +112,9 @@
 	width: 100%;
 }
 
+.features h2 {
+	text-align: center;
+}
 
 .features img {
 	max-width: 200px;
