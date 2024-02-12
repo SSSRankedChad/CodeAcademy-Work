@@ -49,9 +49,8 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start
-	max-width: 100px;
-	max-height: 100px;
-	margin-right: 80px;
+	max-width: 400px;
+	max-height: 500px;
 }
 
 .country_club h2 {
@@ -76,9 +75,9 @@
 
 .promo img {
 	display: block;
-	max-width: 100%;
-	height: auto;
-	margin-right: 400px ;
+	max-width: 200px;
+	height: 100px;
+	margin-right: 80px;
 }
 
 .promo p {
