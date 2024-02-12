@@ -78,18 +78,17 @@
 }
 
 .promo h2 {
-	display: block;
+	display: inline-block;
 	margin-right: 150px;
 	font-weight: bold;
 	font-size: 1.9rem;
-	text-align: right;
+	text-align: center;
 }
 
 .promo img {
 	display: block;
 	max-width: 50%;
 	max-height: 300px;
-	margin-left: 20px; 
 }
 
 .promo p, span {
@@ -109,6 +108,7 @@
 	width: 100%;
 }
 .features h2 {
+	padding-top: 200px;
 	display: block;
 	font-weight: bold;
 	text-align: center;
