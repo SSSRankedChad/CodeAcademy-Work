@@ -50,19 +50,20 @@
 .country_club {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
 	background-color: brown;
 	width: 100%;
+        margin: auto;
 }
 
 .country_club img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;
-	max-width: 400px;
+	align-content: center ;
+	max-width: 100%;
 	max-height: 500px;
 }
 
