@@ -91,6 +91,7 @@
 
 .promo p, span {
      font-size: 1.125rem;
+     padding-bottom: 200px;
      
 }
 
@@ -157,6 +158,4 @@
 	flex-direction: column;
 	align-content: right;
 	font-size: 0.5rem;
-	width: 50%;
-	margin-left: 300px;
 }
