@@ -81,7 +81,7 @@
 	display: block;
 	margin-left: 150px;
 	font-weight: bold;
-	font-size: 2.5rem;
+	font-size: 1.9rem;
 	text-align: right;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .promo p, span {
-     font-size: 1.8rem;
+     font-size: 0.5rem;
 }
 
 .promo span {
