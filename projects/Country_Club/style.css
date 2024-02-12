@@ -104,16 +104,13 @@
 	align-content: center;
 	width: 100%;
 }
-
-.features h2, p{
-	text-align: right;
-}
 .features h2 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	font-weight: bold;
+	text-align: center;
 }
 .features img {
 	max-width: 200px;
