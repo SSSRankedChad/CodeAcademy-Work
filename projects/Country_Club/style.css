@@ -78,11 +78,10 @@
 }
 
 .promo h2 {
-	display: block;
 	margin-right: 150px;
 	font-weight: bold;
 	font-size: 1.6rem;
-	text-align: center;
+	text-align: right;
 }
 
 .promo img {
@@ -107,6 +106,7 @@
 	flex-wrap: wrap;
 	align-content: center;
 	width: 100%;
+	
 }
 .features h2 {
 	display: block;
@@ -114,6 +114,7 @@
 	text-align: center;
 	font-size: 0.9rem;
 	margin-bottom: 50px;
+	margin-left: 200px;
 }
 .features img {
 	max-width: 200px;
@@ -123,6 +124,7 @@
 
 .features figure {
 	padding-top: 100px;
+	margin-left: 200px;
 }
 
 .footer {
