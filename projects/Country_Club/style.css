@@ -104,7 +104,7 @@
 .features {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: ;
 	align-content: center;
 	width: 50%;
 	margin: 0 auto;
@@ -113,14 +113,12 @@
 }
 #features_head{
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
-	margin: 0 auto;
-	padding-bottom: 30px;
 }
 .features img {
 	max-width: 200px;
