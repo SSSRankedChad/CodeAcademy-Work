@@ -117,8 +117,8 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
-	margin-left: 50px;
-	margin-bottom: 400px;
+	margin-left: 200px;
+	padding-bottom: 400px;
 }
 .features img {
 	max-width: 200px;
