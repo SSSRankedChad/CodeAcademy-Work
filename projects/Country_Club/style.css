@@ -78,11 +78,9 @@
 }
 
 .promo h2 {
-	margin-left: 250px;
 	font-weight: bold;
 	font-size: 1.6rem;
 	text-align: right;
-	margin-bottom: 180px;
 }
 
 .promo img {
@@ -92,7 +90,6 @@
 }
 
 .promo p, span {
-     margin-bottom: 200px;
      font-size: 1.125rem;
      
 }
@@ -142,7 +139,7 @@
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
-	padding: 0 30px;
+	margin: 0 auto;
 }
 
 #address {
@@ -151,7 +148,7 @@
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
-	padding: 0 30px;
+	margin: 0 auto;
 }
 
 .footer span {
