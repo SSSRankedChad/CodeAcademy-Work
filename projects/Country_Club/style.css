@@ -185,6 +185,32 @@
 		flex-direction: column;
 		justify-content: space-around;
 		align-content: center;
+		flex-wrap: wrap;
 	}
 	
+}  
+@media only screen and (min-width:480px) and (orientation: landscape) {
+	.header ul {
+		display: none;
+	}
+	.country_club {
+	   padding: 200px;
+	   font-size: 2rem;
+	}
+	.footer span {
+		display: none;
+	}
+	.promo {
+	    font-size: 2rem;
+	}
+	.features {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+	.feature h2 {
+		text-align: center;
+		margin: 0 auto;
 }
