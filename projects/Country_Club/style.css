@@ -170,3 +170,21 @@
 	margin-bottom: 20px;
 	margin-left: 20px;
 }
+@media only screen and (max-width:768px) {
+	.header ul {
+		display: none;
+	}
+	.footer span {
+		display: none;
+	}
+	.promo {
+	   font-size: 1.575rem;
+	}
+	.features {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-content: center;
+	}
+	
+}
