@@ -197,7 +197,8 @@
 	}
 	.country_club {
 	   padding: 50px;
-	   font-size: 2rem;
+	   font-size: 4rem;
+	   height: 100%
 	}
 	.footer span {
 		display: none;
@@ -212,7 +213,12 @@
 		align-content: center;
 		flex-wrap: wrap;
 	}
-	.feature h2 {
+	.feature_head{
 		text-align: center;
 		margin: 0 auto;
+	}
+	.feature img {
+		max-width: 300px;
+		max-height: 300px;
+		padding: 40px;
 }
