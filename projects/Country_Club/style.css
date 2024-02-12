@@ -114,6 +114,10 @@
 }
 #features_head{
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
