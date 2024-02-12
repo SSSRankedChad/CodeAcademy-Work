@@ -78,10 +78,10 @@
 }
 
 .promo h2 {
-	display: inline-block;
+	display: block;
 	margin-right: 150px;
 	font-weight: bold;
-	font-size: 1.9rem;
+	font-size: 1.6rem;
 	text-align: center;
 }
 
@@ -92,7 +92,8 @@
 }
 
 .promo p, span {
-     font-size: 1.5rem;
+     font-size: 1.125rem;
+     
 }
 
 .promo span {
@@ -108,7 +109,6 @@
 	width: 100%;
 }
 .features h2 {
-	padding-top: 200px;
 	display: block;
 	font-weight: bold;
 	text-align: center;
@@ -119,6 +119,7 @@
 	max-width: 200px;
 	max-height: 300px;
 	padding-right: 30px;
+	padding-bottom: 100px;
 }
 
 .footer {
@@ -157,5 +158,5 @@
 	align-content: right;
 	font-size: 0.5rem;
 	width: 50%;
-	margin-left: 100px;
+	margin-left: 300px;
 }
