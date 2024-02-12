@@ -151,7 +151,9 @@
 .footer span {
 	display: flex;
 	justify-content: flex-end;
-	flex-direction: row;
+	flex-direction: column;
 	align-content: right;
+}
+	
 	
 }
