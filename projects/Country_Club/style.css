@@ -113,9 +113,7 @@
 	
 }
 #features_head{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	display: block;
 	justify-content: center;
 	align-content: center;
 	font-weight: bold;
