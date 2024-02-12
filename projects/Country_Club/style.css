@@ -17,7 +17,7 @@
 	width: 100%;
 	height: 50px;
 	position: fixed;
-	background-color: white;
+	background-color: black;
 }
 
 .header img{
@@ -74,7 +74,7 @@
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin-left: auto;
+	margin-right: 400px ;
 }
 
 .promo p {
@@ -91,7 +91,7 @@
 	align-content: center;
 	justify-content: flex-end;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 1.5rem;
 	text-align: right;
 }
 
@@ -108,6 +108,7 @@
 	width: 100%;
 }
 
+
 .features img {
 	max-width: 200px;
 	max-height: 300px;
@@ -122,7 +123,7 @@
 	text-align: center;
 	max-height: 100%;
 	max-height: 100%;
-	background-color: black;
+	background-color: brown;
 }
 
 .contact {
@@ -132,7 +133,6 @@
 	align-content: center;
 	text-align: center;
 	margin-right: 100px;
-	color: white;
 }
 
 .address {
