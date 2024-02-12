@@ -40,9 +40,11 @@
 .country_club {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
 	text-align: center;
+	background-color: brown;
+	width: 100%;
 }
 
 .country_club img {
@@ -53,49 +55,26 @@
 	max-height: 500px;
 }
 
-.country_club h2 {
-	text-align: justify;
-	font-weight: bold;
-	background-color: brown;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-content: center;
-	width: 100%;
-	max-height: 200px;
-}
-
 .promo {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
+	text-align: justify;
 	width: 100%;
+	
+}
+
+.promo h2 {
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
 .promo img {
 	display: block;
-	max-width: 200px;
-	height: 100px;
+	max-width: 400px;
+	height: 300px;
 	margin-right: 80px;
-}
-
-.promo p {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-	text-align: right;
-}
-
-.promo h2 {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: flex-end;
-	font-weight: bold;
-	font-size: 1.5rem;
-	text-align: right;
 }
 
 .promo span {
