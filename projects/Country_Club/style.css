@@ -111,7 +111,10 @@
 	
 }
 .features h2 {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
@@ -159,5 +162,5 @@
 	flex-direction: column;
 	align-content: right;
 	font-size: 0.5rem;
-	margin: 0 auto;
+	margin-top: 75%;
 }
