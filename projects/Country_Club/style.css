@@ -78,6 +78,10 @@
 	margin-right: 80px;
 }
 
+.promo p {
+     font-size: 0.8rem;
+}
+
 .promo span {
    color: brown;
 }
