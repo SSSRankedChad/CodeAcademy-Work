@@ -18,6 +18,7 @@
 	height: 50px;
 	position: fixed;
 	background-color: black;
+	padding-top: 30px;
 }
 
 .header img{
@@ -60,7 +61,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
-	text-align: justify;
+	text-align: right;
 	width: 100%;
 	
 }
@@ -103,7 +104,7 @@
 .footer {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-around;
 	align-content: center;
 	text-align: center;
 	max-height: 100%;
@@ -114,8 +115,8 @@
 
 .contact {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+	flex-direction: row;
+	justify-content: space-around;
 	align-content: center;
 	text-align: center;
 	margin-right: 100px;
@@ -123,17 +124,16 @@
 
 .address {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
 	text-align: center;
 	margin-left: 100px;
-	color: white;
 }
 
 #copyright {
 	display: flex;
 	justify-content: flex-start;
-	margin-left: auto;
-	color: white;
+	margin-left: 50px;
+	margin-right: 100px;
 }
