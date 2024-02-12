@@ -25,13 +25,14 @@
 .header img{
 	 display: flex;
          justify-content: flex-start;
-	 max-width: 100px;
-     	 max-height: 50px;
-         margin-left: 10px;
+	 height: 50px;
+	 margin-left: 10px;
 }
 
 .header ul {
 	display: flex;
+	align-content: center;
+	text-align: center;
 	justify-content: flex-end;
 	list-style-type: none;
 	padding: 0 20px;
@@ -40,6 +41,10 @@
 
 .header li {
 	margin-right: 30px;
+}
+
+.header li a::before {
+	text-decoration: none;
 }
 
 .country_club {
@@ -55,6 +60,8 @@
 .country_club img {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 	max-width: 400px;
 	max-height: 500px;
 }
@@ -63,7 +70,7 @@
 	display: block;
 	text-align: right;
 	width: 50%;
-	margin-bottom: 300px;
+	margin-bottom: 500px;
 	box-sizing: border-box;
 	
 }
@@ -102,6 +109,10 @@
 	text-align: right;
 }
 .features h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
 	font-weight: bold;
 }
 .features img {
