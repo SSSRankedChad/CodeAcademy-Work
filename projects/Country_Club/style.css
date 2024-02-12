@@ -78,7 +78,7 @@
 }
 
 .promo h2 {
-	margin-right: 150px;
+	margin-left: 250px;
 	font-weight: bold;
 	font-size: 1.6rem;
 	text-align: right;
@@ -91,6 +91,7 @@
 }
 
 .promo p, span {
+     margin-top: 200px;
      font-size: 1.125rem;
      
 }
