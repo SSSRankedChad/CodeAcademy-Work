@@ -166,6 +166,7 @@
 	text-align: right;
 	align-content: right;
 	font-size: 0.5rem;
+	min-height: 10%;
 }
 @media only screen and (max-width:768px) {
 	.header ul {
