@@ -8,7 +8,6 @@
 * {
 	font-family: 'Merriweather';
 	font-size: 16px;
-	margin: 0;
 }
 
 .header {
@@ -53,7 +52,7 @@
 	align-content: center;
 	text-align: center;
 	background-color: brown;
-	padding: 15px 0;
+	padding: 0.15em 0;
         margin-inline: 0 auto;
 }
 
@@ -69,8 +68,7 @@
 .promo {
 	align-content: right;
 	text-align: right;;
-	width: 100%;
-	margin: 0 auto;
+	margin-inline: 0 auto;
 	
 }
 
@@ -78,14 +76,13 @@
 	font-weight: bold;
 	font-size: 1.6rem;
 	text-align: right;
-	padding-bottom: 100px;
+	padding-bottom: 1em;
 }
 
 .promo img {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
-	width: 100%;
 	max-height: 500px;
 }
 
@@ -93,7 +90,7 @@
      text-align: right;
      align-content: right;
      font-size: 1.125rem;
-     padding-bottom: 50px;
+     padding-bottom: 0.5em;
      
 }
 
@@ -106,8 +103,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-content: center;
-	width: 50%;
-	margin: 0 auto;
+	margin-inline: 0 auto;
 	max-width: 1200px;
 	
 }
@@ -116,13 +112,13 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 0.9rem;
-	margin-right: 50px;
+	margin-right: 0.5em;
 	margin-bottom: auto;
 }
 .features img {
 	max-width: 200px;
 	max-height: 300px;
-	padding-right: 30px;
+	padding-right: 0.3em;
 }
 
 .features figure {
@@ -141,7 +137,6 @@
 	max-height: 100%;
 	max-height: 100%;
 	background-color: brown;
-	width: 100%;
 }
 
 #contact {
