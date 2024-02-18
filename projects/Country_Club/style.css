@@ -42,7 +42,7 @@
 	margin-right: 30px;
 }
 
-.header li a::before {
+.header li a::hover {
 	text-decoration: none;
 }
 
@@ -110,8 +110,11 @@
 	
 }
 #features_head{
-	display: block;
-	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 	text-align: center;
 	font-size: 0.9rem;
 	margin-right: 0.5em;
@@ -162,7 +165,9 @@
 
 .footer span {
 	display: flex;
+	flex-direction: column
 	justify-content: flex-end;
+	flex-wrap: wrap;
 	text-align: right;
 	align-content: right;
 	font-size: 0.5rem;
