@@ -112,7 +112,7 @@
 #features_head{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	text-align: center;
 }
