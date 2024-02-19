@@ -112,10 +112,10 @@
 #features_head{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
 	text-align: center;
-	background-color: brown;
+	padding-bottom: 50%;
 }
 .features img {
 	max-width: 200px;
