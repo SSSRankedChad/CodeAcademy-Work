@@ -67,9 +67,10 @@
 }
 
 .promo {
+	display: flex;
 	align-content: right;
 	text-align: right;;
-	margin-inline: 0 auto;
+	
 	
 }
 
@@ -82,9 +83,9 @@
 
 .promo img {
 	display: flex;
+	flex-direction: row;
 	justify-content: flex-start;
 	max-width: 80%;
-	flex-direction: row;
 	max-height: 600px;
 }
 
