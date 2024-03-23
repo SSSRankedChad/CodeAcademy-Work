@@ -4,107 +4,82 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
 }
+
 * {
 	font-family: 'Roboto';
 	color: midnightblue;
 	font-size: 16px;
 	margin: 0 auto;
 }
-h3 {
-	text-align: center;
-	font-size: 4rem;
-}
 .header {
 	position: fixed;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	background-color: yellowgreen;
-	opacity: 0.9;
-	width: 100%;
-	border-bottom: 1px solid black;
 }
 .header img {
-	display: flex;
-	justify-content: flex-start
-        height: 50px;
-	margin-left: 10px;
+	display: block;
+	max-width: 100px;
+	max-height: 60px;
 }
-.header ul{
+.header .nav {
 	display: flex;
-	justify-content: flex-end;
-	list-style-type: none;
-	padding: 0 20px;
-	text-align: center;
 	align-content: center;
-	margin-top: 50px;
-	
-}
-.header li {
-	font-size: 3rem;
-	margin-right: 10px;
-}
-.header a::before {
-	text-decoration: none;
-}
-.transit{
-	background-image: url("/resources/tri-delta.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	max-width: 100%;
-	height: 700px;
-	background-position: center;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
-	padding-top: 70px;
-	overflow: hidden;
+	list-style-type: none;
+	margin-left: 80px;
+	margin-right: 20%;
 }
-.transit h2 {
-	background-color: yellowgreen;
-	text-align: center;
+#transit {
+	display: flex;
+	flex-direction: column;
 	align-content: center;
-	width: 100%;
-	padding: 10px;
-	font-size: 2rem;
+	justify-content: space-around;
+	background-color: yellowgreen;
+	max-width: 500px;
+	min-height: 25%;
+	opacity: 0.8;
+	top: 15%;
+}
+#transit_image {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: center;
+	max-width: 100%;
+	min-height: 75px;
 }
 
 .info {
-	background-image: url("/resources/bus.jpeg");
+	background-image: url("/resources/img/bus.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	justify-content: space-around;
+	justify-content: center;
 	max-width: 100%;
-	height: 500px;
-	margin-top: 300px;
+	max-height: 700px;
 }
 .info h3 {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	align-content: center;
-	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	
 }
 .employee {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
-	flex-wrap: wrap;
 	align-items: center;
 	margin-left: 100px;
 	margin-top: 50px;
 }
 .employee img {
-	max-width: 200px;
-	max-height: 300px;
-	padding-left: 30px;
+	max-width: 50%;
+	max-height: 100%;
+	overflow: hidden;
 }
 .footer {
 	display: flex;
@@ -119,15 +94,13 @@ h3 {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	text-align: center;
 }
 #phone img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: left;
-	margin-right: 5px;
-	width: 50%
-	max-width: 20px;
-	max-height: 20px;
+	margin-left: 5px;
+	max-width: 100%;
+	width: 50px;
 }
