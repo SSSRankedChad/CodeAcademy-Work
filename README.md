@@ -1,3 +1,15 @@
-Hello this is Whales! Here is where I store all my projects that I have done through the CodeAcademy program and you are always welcome to take a look!
+Welcome 
+==========
 
-All projects will be in the projects folder currently and this will be updated in the future as I progress.
+My name is Whales and this is my repository for my CodeAcademy projects!
+
+This is still incomplete but main goal for this repo is to: 
+
+1. To learn more and to learn better
+
+2. Eventually create my own portfolio website after learning the JS/React framework.
+
+3. To accept feedback and improve on how I approach these projects.
+
+
+
