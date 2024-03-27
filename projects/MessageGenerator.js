@@ -1,5 +1,5 @@
 /* Uses switch statements and random function to generate a user message
-
+    
 let num = Math.floor(Math.random() * 9);
 
 const MessageGenerator = (num) => {
@@ -53,43 +53,45 @@ console.log(`Your message for today is:  [${MessageGenerator(num)}]`); */
 
 /* Uses arrays and creates a function to join the array together to form a message */
 
-let subjectArray = ['I am', 'We are', 'You were', 'They did'];
-let endArray = ['James', 'Work', 'Married', 'Born'];
+const MessageGenerator = {
+    subjectArray: subjectArray,
+    endArray: endArray,
 
-const MessageJoiner = () => {
-    let num1 = Math.floor(Math.random() * 3);
-    let num2 = Math.floor(Math.random() * 3);
+    get MessageJoiner () {
+        this.subjectArray = ['I am', 'You are', 'We are', 'They did'];
+        this.endArray = ['James', 'married', 'working', 'dinner'];
+        let num1 = Math.floor(Math.random() * 3);
+        let num2 = Math.floor(Math.random() * 3);
 
-    let newArray = [];
+        let newArray = [];
 
-    let subIndex = subjectArray[num1];
-    let endIndex = endArray[num2];
+        let subIndex = subjectArray[num1];
+        let endIndex = endArray[num2];
 
-        for (let i = 0; i < subjectArray.length; i++) {
-             for (let j = 0; j < endArray.length; j++) {
+            for (let i = 0; i < subjectArray.length; i++) {
+                for (let j = 0; j < endArray.length; j++) {
 
-                if (subIndex === subjectArray[i] && newArray.indexOf(subjectArray[i]) === -1) {
-                 newArray.push(subjectArray[i]);
+                    if (subIndex === subjectArray[i] && newArray.indexOf(subjectArray[i]) === -1) {
+                    newArray.push(subjectArray[i]);
+                    }
+
+                    if (endIndex === endArray[j] && newArray.indexOf(endArray[j]) === -1) {
+                    newArray.push(endArray[j]);
+                    }
                 }
 
-                if (endIndex === endArray[j] && newArray.indexOf(endArray[j]) === -1) {
-                 newArray.push(endArray[j]);
-                }
             }
 
-        }
+            if (newArray.length > 4) {
+                newArray.slice(1, 2);
+                newArray.length = 4;
+            }
 
-        if (newArray.length > 4) {
-            newArray.slice(1, 2);
-            newArray.length = 4;
-        }
-
+            
         
-    
-    let str = newArray.reverse();
-    return str.join(" ");
+        let str = newArray.reverse();
+        return str.join(" ");
+ }
 }
 
-    
-
-console.log(MessageJoiner());
+console.log(MessageGenerator.MessageJoiner());
