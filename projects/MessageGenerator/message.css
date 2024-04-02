@@ -26,10 +26,10 @@ body {
 
 #output {
   background-color: white;
-  padding: 20px 20px;
+  padding: 10px 10px;
   border-radius: 5px;
   box-shadow: 3px 3px midnightblue;
-  margin: 50px auto;
+  margin-top: 50px;
 }
 
 #button {
