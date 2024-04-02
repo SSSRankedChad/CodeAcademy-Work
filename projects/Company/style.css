@@ -52,7 +52,7 @@
 }
 
 .info {
-	background-image: url("/resources/img/bus.jpeg");
+	background-image: url("./resources/img/bus.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
