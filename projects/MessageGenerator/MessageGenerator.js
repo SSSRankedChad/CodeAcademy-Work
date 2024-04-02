@@ -98,8 +98,9 @@ const MessageGenerator = {
 }
 
 
-let button = document.getElementById("button");
+let button = document.getElementById('button');
+let output = document.getElementById('output');
 
-button.addEventListener("onclick", MessageGenerator.MessageJoiner);
-
-button.onclick = MessageGenerator.MessageJoiner;
+button.addEventListener('click', function() {
+output.innerHTML = MessageGenerator.MessageJoiner;
+});
