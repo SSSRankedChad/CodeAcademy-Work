@@ -22,14 +22,19 @@ body {
   padding-top: 50px;
   background-color: skyblue;
   margin: 70px 70px;
-  border: 2px solid red shadow;
 }
 
-#generate textarea {
+#output {
   padding-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
   margin: 0 auto;
+  border: 2px solid blue shadow;
+}
+
+#button {
+  background-color: white;
+  border-radius: 20px;
 }
