@@ -37,7 +37,7 @@
    padding: 0 20px;
 }
 .mission {
-   background-image: url('/resources/img-mission-background.jpg');
+   background-image: url('/resources/img/img-mission-background.jpg');
    max-width: 1200px;
    height: 700px;
    background-repeat: no-repeat;
@@ -83,7 +83,7 @@
 }
 .locations{
    margin: 0 auto;
-   background-image: url('/resources/img-locations-background.jpg');
+   background-image: url('/resources/img/img-locations-background.jpg');
    background-repeat: no-repeat;
    background-position: center;
    text-align: center;
