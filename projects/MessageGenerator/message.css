@@ -26,7 +26,7 @@ body {
 
 #output {
   background-color: white;
-  padding: 5px;
+  padding: 0px 5px;
   border-radius: 5px;
   box-shadow: 3px 3px midnightblue;
   margin-top: 50px;
