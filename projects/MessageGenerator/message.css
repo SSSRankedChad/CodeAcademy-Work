@@ -27,13 +27,13 @@ body {
 #output {
   padding-top: 60px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-content: center;
   margin: 0 auto;
   box-shadow: 10px 10px midnightblue;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 #button {
