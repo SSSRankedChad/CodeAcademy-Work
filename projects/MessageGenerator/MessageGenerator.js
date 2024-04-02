@@ -101,6 +101,6 @@ const MessageGenerator = {
 let button = document.getElementById('button');
 let output = document.getElementById('output');
 
-button.addEventListener('click', function() {
+button.addEventListener('onclick', function() {
 output.innerHTML = MessageGenerator.MessageJoiner;
 });
