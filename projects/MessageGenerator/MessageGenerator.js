@@ -98,7 +98,8 @@ const MessageGenerator = {
 }
 
 
-let button = document.getElementById("button");
+let button = document.querySelector("button");
+let box = document.getElementByTag("textarea");
 
-button.addEventListener("onclick", MessageGenerator.MessageJoiner);
-button.onclick = MessageGenerator.MessageJoiner;
+
+button.addEventListener("click", MessageGenerator.MessageJoiner);
