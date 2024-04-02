@@ -31,7 +31,7 @@ body {
   justify-content: space-around;
   align-content: center;
   margin: 0 auto;
-  box-shadow: 10px 10px midnightblue;
+  box-shadow: 2px 2px 20% midnightblue;
   height: 300px;
   width: 300px;
 }
