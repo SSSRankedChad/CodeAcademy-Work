@@ -25,15 +25,11 @@ body {
 }
 
 #output {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  box-shadow: 2px 2px 20% midnightblue;
-  opacity: 0.8rem;
-  height: 30%;
-  width: 30%;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px midnightblue;
+  margin: 50px auto;
 }
 
 #button {
