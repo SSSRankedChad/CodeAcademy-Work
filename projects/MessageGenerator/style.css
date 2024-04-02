@@ -14,7 +14,7 @@ h1 {
   padding-bottom: 50px;
 }
 
-body {
+.generate {
   display: flex;
   flex-direction: column;
   align-content: center;
