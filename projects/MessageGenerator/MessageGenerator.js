@@ -100,4 +100,6 @@ const MessageGenerator = {
 
 let button = document.getElementById("button");
 
-button.addEventListener("onclick", MessageGenerator.MessageJoiner)
+button.addEventListener("onclick", MessageGenerator.MessageJoiner);
+
+button.onclick = MessageGenerator.MessageJoiner;
