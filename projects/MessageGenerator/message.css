@@ -31,8 +31,9 @@ body {
   justify-content: space-around;
   align-content: center;
   box-shadow: 2px 2px 20% midnightblue;
-  height: 300px;
-  width: 300px;
+  opacity: 0.8rem;
+  height: 30%;
+  width: 30%;
 }
 
 #button {
