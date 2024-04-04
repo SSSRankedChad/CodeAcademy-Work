@@ -39,7 +39,7 @@ head img {
 	font-weight: 500;
 }
 
-#portfolio img {
+#portfolio{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -48,9 +48,15 @@ head img {
    justify-content: space-around;
 }
 
+
 #portfolio img {
 	max-height: 200px;
 	max-width: 300px;
+}
+
+#portfolio figure {
+      display: flex;
+      flex-direction: column;
 }
 
 .contact {
@@ -76,6 +82,7 @@ head img {
 	margin-top: 70px;
 	display: flex;
 	flex-direction: row;
+	text-align: right;
 	align-content: flex-end;
 	background-color: white;
 	width: 100px;
