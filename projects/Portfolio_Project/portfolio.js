@@ -1,7 +1,7 @@
-let link = document.getElementsByTagName("figure");
+let link = document.getElementsByTagName("img");
 
 const linkColor = function(event) {
-    event.target.style.backgroundColor = "brown";
+    event.target.style.color = "brown";
 }
 
 let eventAssignment = function(link) {
