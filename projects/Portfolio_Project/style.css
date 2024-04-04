@@ -76,9 +76,8 @@ head img {
 	margin-top: 70px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
 	align-content: flex-end;
 	background-color: white;
-	width: 30px;
+	width: 100px;
 	border-radius: 20px;
 }
