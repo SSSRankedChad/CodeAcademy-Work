@@ -13,7 +13,7 @@
 
 head img {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-content: flex-end;
 	border-radius: 15px;
@@ -41,7 +41,7 @@ head img {
 
 #portfolio figure {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
    align-items: center;
    align-content: center;
@@ -60,7 +60,7 @@ head img {
 
 #social {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: center;
