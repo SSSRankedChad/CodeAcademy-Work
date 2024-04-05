@@ -24,7 +24,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	display: grid;
+	display: inline-grid;
 	grid-area: head;
 	opacity: 0.8;
 	
