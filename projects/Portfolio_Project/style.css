@@ -23,9 +23,6 @@ a {
 	background-image: url("/resources/img/humpback-whale-underwater-portrait--107312834-5a01c2cab39d03001952917f.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	overflow: hidden;
-	display: inline-grid;
-	grid-area: head;
 	opacity: 0.8;
 	
 }
