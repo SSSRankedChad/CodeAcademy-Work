@@ -68,6 +68,7 @@ a {
       flex-direction: column;
       justify-content: center;
       align-content: center;
+      margin-left: 10%;
 }
 
 .contact {
