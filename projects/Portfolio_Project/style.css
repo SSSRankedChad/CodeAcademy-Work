@@ -54,14 +54,6 @@ a {
    align-content: center;
 }
 
-#portfolio{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: space-around;
-}
-
 
 
 #portfolio img {
@@ -69,9 +61,9 @@ a {
 	max-width: 300px;
 }
 
-#portfolio figure {
+#portfolio {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-content: center;
       margin-left: 10%;
