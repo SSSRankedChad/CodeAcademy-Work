@@ -54,7 +54,9 @@ a {
    flex-wrap: wrap;
    align-content: center;
    justify-content: space-around;
+   align-items: center;
 }
+
 
 
 #portfolio img {
@@ -68,6 +70,7 @@ a {
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: center;
+      align-items: center;
 }
 
 .contact {
