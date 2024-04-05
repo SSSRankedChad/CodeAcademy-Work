@@ -1,7 +1,12 @@
-let link = document.getElementsByTagName("figure");
+document.addEventListener('DOMContentLoaded, function() {
+    let figure = document.getElementById("portfolio");
+    let img = document.getElementById("social");
+});
 
-const linkColor = {
-    document.body.style.backgroundColor = "brown";
-}
+figure.addEventListener("onmouseover", function() {
+    this.style.backgroundColor = "blue";
+});
 
-link.onmouseover = linkColor;
+img.addEventListener("onmouseover", function() {
+    this.style.backgroundColor = "blue";
+});
