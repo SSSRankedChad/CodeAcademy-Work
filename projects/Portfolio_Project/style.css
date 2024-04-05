@@ -19,18 +19,6 @@ a {
 	font-size: 2.2rem;
 }
 
-#profile {
-	background-image: url("/resources/img/humpback-whale-underwater-portrait--107312834-5a01c2cab39d03001952917f.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	opacity: 0.8;
-	max-height: 50%;
-	max-width: 100%;
-	color: white;
-	
-}
-
 #background, #portfolio {
 	margin-top: 100px;
 	border: 1px solid blue;
@@ -88,8 +76,8 @@ a {
 }
 
 #social img {
-	height: 50px;
-        width: 50px;
+	max-height: 50px;
+        max-width: 50px;
 	background: transparent;
 	margin: 20px 10px;
 	border: 1px solid black;
