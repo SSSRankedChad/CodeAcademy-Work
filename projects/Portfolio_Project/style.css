@@ -23,6 +23,7 @@
 	border: 1px solid blue;
 	box-shadow: 2px 2px skyblue;
 	padding: 0px 20px;
+	background-color: lightblue;
 }
 
 #background span {
@@ -53,6 +54,9 @@
 #portfolio figure {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
 }
 
 .contact {
