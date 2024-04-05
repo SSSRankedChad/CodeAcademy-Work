@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded, function() {
 });
 
 figure.addEventListener("click", function() {
-    this.style.backgroundColor = "blue";
+    document.body.style.backgroundColor = "blue";
 });
 
 img.addEventListener("click", function() {
-    this.style.backgroundColor = "blue";
+    document.body.style.backgroundColor = "blue";
 });
