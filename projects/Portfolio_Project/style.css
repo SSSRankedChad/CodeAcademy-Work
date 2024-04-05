@@ -21,9 +21,9 @@ a {
 
 #profile {
 	background-image: url("/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right;
+	overflow: hidden;
 	display: grid;
 	grid-area: head;
 	opacity: 0.8;
@@ -103,4 +103,5 @@ a {
 	border-radius: 20px;
 	box-shadow: 3px 3px darkblue;
 	font-weight: 300;
+	font-size: 12px;
 }
