@@ -11,13 +11,19 @@
 	font-size: 18px;
 }
 
+#profile h1 {
+	font-size: 2.2rem;
+	
+	
+}
+
 #profile img {
-	display: flex;
-	flex-direction: column;
-	max-height: 300px;
-	max-width: 800px;
-	justify-content: flex-end;
-	align-content: flex-end;
+	background-image: url("/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg") midnightblue;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-area: img;
+	opacity: 0.8;
 }
 
 #background, #portfolio, .contact {
