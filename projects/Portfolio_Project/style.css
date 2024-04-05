@@ -29,11 +29,12 @@ a {
 	
 }
 
-#background, #portfolio, .contact {
+#background, #portfolio {
 	margin-top: 100px;
 	border: 1px solid blue;
 	box-shadow: 2px 2px skyblue;
 	padding: 0px 20px;
+	background-color: skyblue;
 }
 
 #background span {
@@ -68,6 +69,10 @@ a {
     align-content: center;
 
 .contact {
+	margin-top: 100px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px skyblue;
+	padding: 0px 20px;
 	background-color: lightgrey;
 	text-align: center;
 }
