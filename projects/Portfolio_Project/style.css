@@ -19,13 +19,15 @@ a {
 	font-size: 2.2rem;
 }
 
-#profile img {
+#profile {
 	background-image: url("/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: right;
 	display: grid;
-	grid-area: img;
+	grid-area: head;
 	opacity: 0.8;
+	
 }
 
 #background, #portfolio, .contact {
