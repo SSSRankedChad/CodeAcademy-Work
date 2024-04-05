@@ -11,12 +11,16 @@
 	font-size: 18px;
 }
 
+a {
+ text-decoration: none;
+}
+
 #profile h1 {
 	font-size: 2.2rem;
 }
 
 #profile img {
-	background-image: url("/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg") midnightblue;
+	background-image: url("/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: grid;
@@ -81,6 +85,8 @@
 #social img {
 	height: 50px;
 	width: 50px;
+	background: transparent;
+	margin: 0px 10px;
 }
 
 .contact p {
