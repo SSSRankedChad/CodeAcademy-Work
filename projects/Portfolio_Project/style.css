@@ -67,10 +67,6 @@ a {
 #portfolio figure {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-content: center;
-      align-items: center;
 }
 
 .contact {
@@ -96,7 +92,7 @@ a {
 }
 
 .contact p {
-	margin-top: 70px;
+	margin: 20px 0px;
 	display: flex;
 	flex-direction: row;
 	text-align: right;
