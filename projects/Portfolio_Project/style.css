@@ -47,6 +47,12 @@ a {
 	font-weight: 500;
 }
 
+#links {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-content: center;
+
 #portfolio{
    display: flex;
    flex-direction: column;
