@@ -1,13 +1,7 @@
-let link = document.getElementsByTagName("img");
+let link = document.getElementsByTagName("figure");
 
-const linkColor = function(event) {
-    event.target.style.color = "brown";
+const linkColor = {
+    document.body.style.backgroundColor = "brown";
 }
 
-let eventAssignment = function(link) {
-    link.onmouseover = function() {
-        linkColor(link);
-    }
-}
-
-link.onmouseover = eventAssignment;
+link.onmouseover = linkColor;
