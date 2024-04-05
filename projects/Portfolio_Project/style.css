@@ -24,11 +24,8 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.8;
-	display: flex;
-	align-content: flex-end;
-	flex-direction: row;
-	max-height: 70%;
-	max-width: 80%;
+	max-height: 50%;
+	max-width: 70%;
 	
 }
 
