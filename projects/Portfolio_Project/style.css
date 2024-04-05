@@ -24,6 +24,8 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.8;
+	max-height: 300px;
+	max-width: 100%;
 	
 }
 
