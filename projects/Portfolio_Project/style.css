@@ -52,6 +52,7 @@ a {
    flex-direction: column;
    justify-content: space-around;
    align-content: center;
+}
 
 #portfolio{
    display: flex;
