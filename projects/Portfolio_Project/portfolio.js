@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded, function() {
     let img = document.getElementById("social");
 });
 
-figure.addEventListener("onmouseover", function() {
+figure.addEventListener("mouseenter", function() {
     this.style.backgroundColor = "blue";
 });
 
-img.addEventListener("onmouseover", function() {
+img.addEventListener("mouseenter", function() {
     this.style.backgroundColor = "blue";
 });
