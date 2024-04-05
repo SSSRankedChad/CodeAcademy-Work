@@ -38,9 +38,8 @@
 
 #portfolio{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
-   align-items: center;
    align-content: center;
    justify-content: space-around;
 }
@@ -53,7 +52,7 @@
 
 #portfolio figure {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: center;
