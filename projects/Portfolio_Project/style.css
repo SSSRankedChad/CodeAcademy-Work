@@ -21,7 +21,7 @@ a {
 
 #profile {
 	background-image: url("/resources/img/humpback-whale-underwater-portrait--107312834-5a01c2cab39d03001952917f.jpg");
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	opacity: 0.8;
@@ -36,7 +36,7 @@ a {
 	border: 1px solid blue;
 	box-shadow: 2px 2px skyblue;
 	padding: 0px 20px;
-	background-color: skyblue;
+	background-color: grey;
 }
 
 #background span {
@@ -106,6 +106,6 @@ a {
 	max-width: 20%;
 	border-radius: 20px;
 	box-shadow: 3px 3px darkblue;
-	font-weight: 300;
+	font-weight: lighter;
 	font-size: 12px;
 }
