@@ -122,6 +122,7 @@ img {
 	text-align: right;
 	align-content: flex-end;
 	background-color: white;
+	min-width: 20%;
 	max-width: 20%;
 	border-radius: 20px;
 	box-shadow: 3px 3px darkblue;
@@ -133,6 +134,12 @@ img {
 	#portfolio {
 	   display: flex;
 	   flex-direction: column;
+	   justify-content: center;
+	   align-content: center;
+	}
+
+	#profile img {
+   	  display: none;
 	}
 
 	* {
@@ -142,15 +149,15 @@ img {
 
 	#social {
 	 display: flex;
-	 flex-direction: column;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-content: center;
 	}
 
 	#portfolio, .contact, #background {
-	   background-color: skyblue;
+	   background-color: white;
 	}
 
-	h1 {
-	 color: white;
-	}
+
 }
 
