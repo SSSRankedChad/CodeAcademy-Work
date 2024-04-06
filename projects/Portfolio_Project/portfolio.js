@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded, function() {
+document.addEventListener('DOMContentLoaded', function() {
     let figure = document.getElementById("portfolio");
     let img = document.getElementById("social");
 });
