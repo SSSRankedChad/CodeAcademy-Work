@@ -140,5 +140,9 @@ img {
 	#portfolio, .contact, #background {
 	   background-color: skyblue;
 	}
+
+	h1 {
+	 color: white;
+	}
 }
 
