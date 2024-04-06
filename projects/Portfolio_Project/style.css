@@ -54,7 +54,6 @@ img {
     margin-left: 300px;
     height: 700px;
     width: 300px;
-    overflow: hidden;
 }
 
 #background p {
@@ -115,10 +114,6 @@ img {
 	background: transparent
 }
 
-#google {
-    margin-top: 10px;
-}
-
 .contact p {
 	margin: 20px 0px;
 	display: flex;
@@ -134,7 +129,7 @@ img {
 	font-size: 12px;
 }
 
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+@media only screen and (min-width: 480px) and (orientation: portrait) {
 	#portfolio {
 	   display: flex;
 	   flex-direction: column;
