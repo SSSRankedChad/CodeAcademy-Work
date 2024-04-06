@@ -2,9 +2,9 @@
     let img = document.getElementById("social");
 
 figure.addEventListener("click", function() {
-    document.body.style.backgroundColor = "blue";
+   this.style.backgroundColor = "red";
 });
 
 img.addEventListener("click", function() {
-    document.body.style.backgroundColor = "blue";
+    this.style.backgroundColor = "red";
 });
