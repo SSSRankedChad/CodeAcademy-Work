@@ -73,11 +73,11 @@ a {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	max-height: 50px;
-        max-width: 50px;
-	background: transparent;
-	margin: 20px 10px;
-	border: 1px solid black;
+}
+
+img {
+ max-height: 50px;
+ max-width: 50px;
 }
 
 .contact p {
