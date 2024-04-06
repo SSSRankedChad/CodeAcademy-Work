@@ -26,15 +26,6 @@ img {
 	font-size: 2.2rem;
 }
 
-#profile img {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-content: flex-end;
-   height: 800px;
-   width: 300px;
-}
-
 #background, #portfolio {
 	margin-top: 100px;
 	border: 1px solid blue;
