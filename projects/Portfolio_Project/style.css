@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+}
+
+* {
+	font-family: 'Montserrat';
+	font-size: 18px;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+   min-height: 10px;
+   min-width: 10px;
+   max-height: 200px;
+   max-width: 300px;
+}
+
+#profile h1 {
+	font-size: 2.2rem;
+}
+
+#background, #portfolio {
+	margin-top: 100px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px skyblue;
+	padding: 0px 20px;
+	background-color: lightgrey;
+}
+
+#background span {
+	color: darkblue;
+	font-weight: 500;
+}
+
+#portfolio span {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+
+#portfolio img {
+	height: 200px;
+	width: 300px;
+	object-fit: contain;
+}
+
+#portfolio {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+}
+
+#portfolio figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contact {
+	margin-top: 100px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px skyblue;
+	padding: 0px 20px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+#social {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+#social img {
+ 	max-height: 50px;
+ 	max-width: 50px;
+	background: transparent
+}
+
+.contact p {
+	margin: 20px 0px;
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	align-content: flex-end;
+	background-color: white;
+	max-width: 20%;
+	border-radius: 20px;
+	box-shadow: 3px 3px darkblue;
+	font-weight: lighter;
+	font-size: 12px;
+}
