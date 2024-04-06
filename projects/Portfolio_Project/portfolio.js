@@ -1,10 +1,10 @@
     let figure = document.getElementById("portfolio");
     let img = document.getElementById("social");
 
-figure.addEventListener("onmouseover", function() {
+figure.addEventListener("mouseenter", function() {
    this.style.color = "red";
 });
 
-img.addEventListener("onmouseover", function() {
+img.addEventListener("mouseenter", function() {
     this.style.color = "red";
 });
