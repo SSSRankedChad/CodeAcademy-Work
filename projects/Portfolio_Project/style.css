@@ -33,6 +33,7 @@ img {
    align-content: flex-end;
    height: 800px;
    width: 300px;
+}
 
 #background, #portfolio {
 	margin-top: 100px;
@@ -152,11 +153,6 @@ img {
 	 justify-content: center;
 	 align-content: center;
 	}
-
-	#portfolio, .contact, #background {
-	   background-color: white;
-	}
-
 
 }
 
