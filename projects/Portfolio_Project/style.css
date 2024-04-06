@@ -106,6 +106,10 @@ img {
 	background: transparent
 }
 
+#google {
+  margin-top: 10px;
+}
+
 .contact p {
 	margin: 20px 0px;
 	display: flex;
