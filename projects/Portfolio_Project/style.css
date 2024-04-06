@@ -16,8 +16,8 @@ a {
 }
 
 img {
-   min-height: 10px;
-   min-width: 10px;
+   min-height: 5px;
+   min-width: 5px;
    max-height: 200px;
    max-width: 300px;
 }
@@ -82,8 +82,8 @@ img {
 }
 
 .contact img {
- 	height: 10px;
- 	width: 10px;
+ 	max-height: 5px;
+ 	max-width: 5px;
 }
 
 .contact p {
