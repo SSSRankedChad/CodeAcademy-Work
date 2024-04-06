@@ -18,6 +18,8 @@ a {
 img {
    min-height: 50px;
    min-width: 50px;
+   max-height: 200px;
+   max-width: 300px;
 }
 
 #profile h1 {
@@ -44,8 +46,8 @@ img {
 
 
 #portfolio img {
-	max-height: 200px;
-	max-width: 300px;
+	height: 200px;
+	width: 300px;
 }
 
 #portfolio {
