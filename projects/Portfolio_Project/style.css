@@ -1,0 +1,169 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+}
+
+* {
+	font-family: 'Montserrat';
+	font-size: 18px;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+   min-height: 10px;
+   min-width: 10px;
+   max-height: 200px;
+   max-width: 300px;
+}
+
+#profile {
+	background-image: url('/resources/img/high-angle-view-of-humpback-whale-swimming-in-sea-royalty-free-image-1702574312.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.9;
+	height: 150px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#profile h1 {
+	font-size: 2.2rem;
+	margin: 0 auto;
+	color: white;
+}
+
+#background, #portfolio {
+	margin-top: 100px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px skyblue;
+	padding: 0px 20px;
+	background-color: lightgrey;
+}
+
+#background span {
+	color: darkblue;
+	font-weight: 500;
+}
+
+#background img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 300px;
+    height: 700px;
+    width: 300px;
+}
+
+#background p {
+   text-align: justify;
+}
+
+#portfolio span {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+
+#portfolio img {
+	height: 200px;
+	width: 300px;
+	object-fit: contain;
+}
+
+#portfolio {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+}
+
+#portfolio figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contact {
+	margin-top: 100px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px skyblue;
+	padding: 0px 20px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+#social {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+#social img {
+ 	max-height: 50px;
+ 	max-width: 50px;
+	background: transparent
+}
+
+#google {
+  margin-top: 10px;
+}
+.contact span {
+	font-weight: lighter;
+	font-style: italic;
+}
+.contact p {
+	margin: 20px 0px;
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	align-content: flex-end;
+	background-color: white;
+	min-width: 20%;
+	max-width: 20%;
+	border-radius: 20px;
+	box-shadow: 3px 3px darkblue;
+	font-weight: lighter;
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	#portfolio {
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: center;
+	   align-content: center;
+	}
+
+	#profile img {
+   	  display: none;
+	}
+
+	* {
+	font-size: 18px;
+	background-color: black;
+	}
+
+	#social {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-content: center;
+	}
+
+}
+
