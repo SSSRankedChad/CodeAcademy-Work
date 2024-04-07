@@ -1,5 +1,11 @@
     let link = document.getElementsByTagName("a");
 
-link.addEventListener("mouseenter", function() {
-   this.style.color = "red";
-});
+    function changeColor(normalColor) {
+      for (let i = 0; i < link.length; i++) {
+         if (link[i].href) {
+            link[i].style.color = hex;
+         }
+      }
+    }
+
+    changeColor('red');
