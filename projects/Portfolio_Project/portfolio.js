@@ -8,4 +8,4 @@
       }
     }
 
-    changeColor('red');
+    link.onClick = changeColor('blue');
